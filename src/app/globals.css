@@ -18,8 +18,13 @@ body {
 .snap::-webkit-scrollbar {
 display: none;
 }
-.country, .ReactFlagsSelect-module_selectBtn__19wW7 {
-  color: white important!;
+#country, .ReactFlagsSelect-module_selectBtn__19wW7 {
+  color: white !important;
+  appearance: white !important;
+}
+#country input, .ReactFlagsSelect-module_selectBtn__19wW7 input {
+  color: white !important;
+  appearance: white !important;
 }
 .bck {
   background-image: 

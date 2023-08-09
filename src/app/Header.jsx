@@ -5,6 +5,7 @@ import menu from "@/assets/menu.svg";
 import ham from "@/assets/cancel.svg";
 import Image from "next/image";
 import ReactFlagsSelect from "react-flags-select";
+import Link from "next/link";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -28,13 +29,13 @@ export default function Header() {
         >
           Home
         </a>
-        <a
-          href="/#services"
+        <Link
+          href="/services"
           onClick={() => setOpen(false)}
           className="py-4 md:py-0 border-b md:border-none w-full"
         >
           Services
-        </a>
+        </Link>
         <a
           href="/#about"
           onClick={() => setOpen(false)}
@@ -78,8 +79,9 @@ export default function Header() {
           fullWidth={false}
           alignOptionsToRight
           countries={["NG", "CA"]}
+          id="country"
           selectButtonClassName="border-none text-white bg-[#265D61] rounded-full"
-          className="border-none bg-[#265D61] rounded-full"
+          className="border-none bg-[#265D61] text-white rounded-full"
         />
         <button className="rounded-md px-10 h-12 bg-[#CB1F52] text-white">
           <a href="">Sign Up</a>
