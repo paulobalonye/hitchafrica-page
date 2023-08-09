@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  color: #101010;
+}
+.snap {
+ -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.snap::-webkit-scrollbar {
+display: none;
+}
+.country, .ReactFlagsSelect-module_selectBtn__19wW7 {
+  color: white important!;
+}
+.bck {
+  background-image: 
+    url('../assets/map.svg'),
+    url('../assets/vector.svg'),
+    linear-gradient(#F0F9F5);
+  
+  background-size: 
+    100% 30%,
+    100% 20%,
+    100% 100%;
+  
+  background-position:
+    0 0,
+    0 30%,
+    0 0;
+  
+  background-repeat: no-repeat;
+}
