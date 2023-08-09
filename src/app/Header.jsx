@@ -23,7 +23,7 @@ export default function Header() {
         } absolute md:static  w-full z-[999999999] md:w-[unset] flex flex-col md:flex-row shadow-md md:shadow-none  gap-5 md:gap-10 items-center transition-all duration-1000 ease-in-out overflow-y-scroll snap text-text`}
       >
         <a
-          href="#top"
+          href="/"
           onClick={() => setOpen(false)}
           className="py-4 md:py-0 border-b md:border-none w-full"
         >
