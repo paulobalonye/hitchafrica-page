@@ -6,10 +6,10 @@ import fline from '@/assets/fline.svg';
 
 export default function Hero() {
   return (
-    <div className="px-5 md:px-20 md:h-[90vh] rounded-bl-[200px] text-white bg-primary w-full flex flex-col md:grid grid-cols-2 gap-8 md:gap-20 items-center z-10">
-      <Image src={fline} alt="" className='absolute w-full h-full inset-0 opacity-80' />
+    <div className="relative px-5 md:px-20 md:h-[90vh] rounded-bl-[200px] text-white bg-primary w-full flex flex-col md:grid grid-cols-2 gap-8 md:gap-20 items-center z-10">
+      <Image src={fline} alt="" className='absolute w-full h-full  top-0 left-0 inset-0 opacity-30' />
   
-      <div className="w-full flex flex-col gap-4 md:gap-8 ">
+      <div className="w-full flex flex-col gap-4 md:gap-8 py-20">
         <h4 className="text-xl md:text-[56px] font-[700] leading-normal">
           Your Marketplace for Convenience and Comfort!
         </h4>
@@ -24,7 +24,7 @@ export default function Hero() {
         </nav>
       </div>
       <figure className="w-full h-full flex justify-center items-end">
-        <Image src={hero} alt="" className="h-[90vw] md:h[90%] object-contain" />
+        <Image src={hero} alt="" className="h-[90vw] md:h-[90%] object-contain" />
       </figure>
     </div>
   );
