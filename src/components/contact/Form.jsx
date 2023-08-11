@@ -14,11 +14,11 @@ export default function Form() {
           <b className="text-[40px] font-[700] leading-none">Contact Form</b>
           <p className='text-lg'>We’re Open for any suggestion or just to have a chat</p>
           <form className='flex flex-col gap-10 w-full items-center'>
-            <input type="text" className="h-12 w-full px-5 placeholder:text-[rgba(255,255,255,0.50)] bg-inherit rounded-md border border-white" placeholder="Full Name" />
-            <input type="email" className="h-12 w-full px-5 placeholder:text-[rgba(255,255,255,0.50)] bg-inherit rounded-md border border-white" placeholder="Email" />
+            <input type="text" className="h-12 w-full px-5 placeholder:text-[rgba(255,255,255,0.50)] bg-inherit rounded-md border-2 border-white" placeholder="Full Name" />
+            <input type="email" className="h-12 w-full px-5 placeholder:text-[rgba(255,255,255,0.50)] bg-inherit rounded-md border-2 border-white" placeholder="Email" />
             <textarea
               placeholder="Message"
-              className="h-32 px-5 border w-full py-5 outline-none rounded-md placeholder:text-[rgba(255,255,255,0.50)] bg-inherit border-white"
+              className="h-32 px-5 border-2 w-full py-5 outline-none rounded-md placeholder:text-[rgba(255,255,255,0.50)] bg-inherit border-white"
             />
             <button className='border border-white h-12 px-5 w-fit text-lg font-[600] rounded-md'>SEND MESSAGE</button>
           </form>

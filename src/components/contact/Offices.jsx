@@ -1,6 +1,13 @@
+import Image from "next/image";
+import bg from "@/assets/officebg.png";
 export default function Offices() {
   return (
-    <main className="bg-[#F9F9F9] px-3 md:px-24 py-10 md:py-24 mt-16 flex flex-col items-center gap-5 md:gap-14 z-10">
+    <main className="bg-[#F9F9F9] px-3 md:px-24 py-10 md:py-24 mt-16 flex flex-col items-center gap-5 md:gap-14 z-10 relative">
+      <Image
+        src={bg}
+        alt=""
+        className="absolute w-full h-full  top-0 left-0 z-[-1]"
+      />
       <h3 className="font-[700] text-3xl md:text-[48px] text-primary">
         Our Offices
       </h3>

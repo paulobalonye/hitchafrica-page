@@ -1,5 +1,5 @@
 import Image from "next/image";
-import hero from "@/assets/hero-terms.svg";
+import hero from "@/assets/hero-privacy.svg";
 import fline from "@/assets/cline.svg";
 export default function Hero() {
   return (
@@ -11,7 +11,7 @@ export default function Hero() {
       />
       <div className="w-full flex flex-col gap-4 md:gap-8">
         <h4 className="text-xl md:text-[56px] font-[700] leading-normal">
-        Terms and Conditions
+        Privacy Policy
         </h4>
       </div>
       <figure className="w-full h-full flex flex-col gap-5 justify-center items-center">

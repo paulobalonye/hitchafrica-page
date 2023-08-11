@@ -61,7 +61,7 @@ export default function Footer() {
               <Link href="/about">About Us</Link>
               <Link href="/">Eco-friendly goal</Link>
               <Link href="/">Careers</Link>
-              <Link href="/">Legal compliance</Link>
+              <Link href="/legal-compliance">Legal compliance</Link>
               <Link href="/">Press</Link>
               <Link href="/">Blog</Link>
               <Link href="/terms-and-condition">Terms & Condition</Link>
