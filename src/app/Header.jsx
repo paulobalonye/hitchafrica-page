@@ -37,14 +37,14 @@ export default function Header() {
           Services
         </Link>
         <a
-          href="/#about"
+          href="/about"
           onClick={() => setOpen(false)}
           className="py-4 md:py-0 border-b md:border-none w-full"
         >
           About
         </a>
         <a
-          href="/#contact"
+          href="/contact"
           onClick={() => setOpen(false)}
           className="py-4 md:py-0 border-b md:border-none w-full"
         >

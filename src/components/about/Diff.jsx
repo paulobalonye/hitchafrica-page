@@ -34,7 +34,7 @@ export default function Diff() {
           <Image src={service1} alt="" className="h-[90vw] md:h-[unset]" />
         </figure>
       </div>
-      <div className="w-full px-5 md:px-24 text-white flex flex-col md:grid grid-cols-[1.2fr_2fr] gap-8 md:gap-12 items-center z-10 bg-[#808787] py-8 md:py-16 rounded-tl-[100px] rounded-br-[100px]">
+      <div className="w-full px-5 md:px-24 text-white flex flex-col md:grid grid-cols-[1fr_2fr] gap-8 md:gap-12 items-center z-10 bg-[#808787] py-10 md:py-20 rounded-tl-[100px] rounded-br-[100px]">
         <figure className="w-full flex flex-col justify-center items-start gap-2 md:px-10">
           <b className="text-2xl md:text-[40px]">Food Delivery</b>
           <Image src={service2} alt="" className="h-[298px]" />
@@ -55,7 +55,7 @@ export default function Diff() {
           </p>
         </div>
       </div>
-      <div className="w-full px-5 md:px-24 text-white flex flex-col md:grid grid-cols-[1.2fr_2fr] gap-8 md:gap-12 items-center z-10 bg-[#1C595C] py-8 md:py-16 rounded-tl-[100px] rounded-br-[100px]">
+      <div className="w-full px-5 md:px-24 text-white flex flex-col md:grid grid-cols-[1fr_2fr] gap-8 md:gap-12 items-center z-10 bg-[#1C595C] py-10 md:py-20 rounded-tl-[100px] rounded-br-[100px]">
         <figure className="w-full flex flex-col justify-center items-start gap-2 md:px-10">
           <b className="text-2xl md:text-[40px]">Bike Rental</b>
           <Image src={service3} alt="" className="h-[298px]" />
@@ -76,7 +76,7 @@ export default function Diff() {
           </p>
         </div>
       </div>
-      <div className="w-full px-5 md:px-24 text-white flex flex-col md:grid grid-cols-[1.2fr_2fr] gap-8 md:gap-12 items-center z-10 bg-[#4F7E80] py-8 md:py-16 rounded-tl-[100px] rounded-br-[100px]">
+      <div className="w-full px-5 md:px-24 text-white flex flex-col md:grid grid-cols-[1fr_2fr] gap-8 md:gap-12 items-center z-10 bg-[#4F7E80] py-10 md:py-20 rounded-tl-[100px] rounded-br-[100px]">
         <figure className="w-full flex flex-col justify-center items-start gap-2 md:px-10">
           <b className="text-2xl md:text-[40px]">Grocery Shopping</b>
           <Image src={service4} alt="" className="h-[298px]" />
@@ -97,7 +97,7 @@ export default function Diff() {
           </p>
         </div>
       </div>
-      <div className="w-full px-5 md:px-24 text-white flex flex-col md:grid grid-cols-[1.2fr_2fr] gap-8 md:gap-12 items-center z-10 bg-[#356B6E] py-8 md:py-16 rounded-tl-[100px] rounded-br-[100px]">
+      <div className="w-full px-5 md:px-24 text-white flex flex-col md:grid grid-cols-[1fr_2fr] gap-8 md:gap-12 items-center z-10 bg-[#356B6E] py-10 md:py-20 rounded-tl-[100px] rounded-br-[100px]">
         <figure className="w-full flex flex-col justify-center items-start gap-2 md:px-10">
           <b className="text-2xl md:text-[40px]">Parcel Delivery</b>
           <Image src={service5} alt="" className="h-[298px]" />
@@ -118,7 +118,7 @@ export default function Diff() {
           </p>
         </div>
       </div>
-      <div className="w-full px-5 md:px-24 text-white flex flex-col md:grid grid-cols-[1.2fr_2fr] gap-8 md:gap-12 items-center z-10 bg-[#033F43] py-8 md:py-16 rounded-tl-[100px] rounded-br-[100px]">
+      <div className="w-full px-5 md:px-24 text-white flex flex-col md:grid grid-cols-[1fr_2fr] gap-8 md:gap-12 items-center z-10 bg-[#033F43] py-10 md:py-20 rounded-tl-[100px] rounded-br-[100px]">
         <figure className="w-full flex flex-col justify-center items-start gap-2 md:px-10">
           <b className="text-2xl md:text-[40px]">Home Cleaning</b>
           <Image src={service6} alt="" className="h-[298px]" />

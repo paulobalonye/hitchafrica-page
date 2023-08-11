@@ -9,7 +9,7 @@ import solution6 from "@/assets/solution6.jpg";
 import car from "@/assets/car.svg";
 export default function Solutions() {
   return (
-    <main className="px-3 md:px-20 py-10 md:py-24 flex flex-col gap-5 md:gap-14 z-10">
+    <main className="px-3 md:px-24 py-10 md:py-24 flex flex-col gap-5 md:gap-14 z-10">
       <div className="flex flex-col items-center justify-center">
         <h3 className="font-[700] text-3xl md:text-[48px] text-primary">
           Solutions
@@ -60,7 +60,7 @@ export default function Solutions() {
           </div>
         </div>
       </div>
-      <div className="flex overflow-x-scroll snap md:grid grid-cols-6 gap-5 md:gap-10 md:px-20 w-full">
+      <div className="flex overflow-x-scroll snap md:grid grid-cols-6 gap-5 md:gap-10 md:px-24 w-full">
         <nav className="text-center flex flex-col min-w-[90%] md:min-w-[unset] md:w-full gap-3 items-center bg-white rounded-xl px-3 md:px-6 py-4 md:py-8 col-span-2">
           <Image src={solution2} alt="" />
           <b className="text-xl md:text-2xl">Food Delivery</b>

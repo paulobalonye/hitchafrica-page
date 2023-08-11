@@ -10,7 +10,7 @@ import appstore from "@/assets/appstore.svg";
 
 export default function How() {
   return (
-    <div className="px-3 md:px-20 py-10 md:py-24 flex flex-col gap-7 md:gap-14 z-10">
+    <div className="px-3 md:px-24 py-10 md:py-24 flex flex-col gap-7 md:gap-14 z-10">
       <div className="flex flex-col items-center justify-center">
         <h3 className="font-[700] text-3xl md:text-[48px] text-primary">
           How it works
