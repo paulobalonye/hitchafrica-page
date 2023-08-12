@@ -6,7 +6,7 @@ import fline from '@/assets/fline.svg';
 
 export default function Hero() {
   return (
-    <div className="relative px-5 md:px-24 rounded-bl-[200px] text-white bg-primary w-full flex flex-col md:grid grid-cols-2 gap-8 md:gap-20 items-center z-[0]">
+    <div className="relative px-5 md:px-24 rounded-bl-[100px] md:rounded-bl-[200px] text-white bg-primary w-full flex flex-col md:grid grid-cols-2 gap-8 md:gap-20 items-center z-[0]">
       <Image src={fline} alt="" className='absolute w-full h-full  top-0 left-0 z-[-1]' />
   
       <div className="w-full flex flex-col gap-4 md:gap-8 py-10 md:py-20">
