@@ -61,8 +61,8 @@ export default function Solutions() {
         </div>
       </div>
       <div className="flex overflow-x-scroll snap md:grid grid-cols-6 gap-5 md:gap-10 md:px-24 w-full">
-        <nav className="text-center flex flex-col min-w-[90%] md:min-w-[unset] md:w-full gap-3 items-center bg-white rounded-xl px-3 md:px-6 py-4 md:py-8 col-span-2">
-          <Image src={solution2} alt="" />
+        <nav className="md:text-center flex flex-col min-w-[90%] md:min-w-[unset] md:w-full gap-3 items-center bg-white rounded-xl px-3 md:px-6 py-4 md:py-8 col-span-2">
+          <Image src={solution2} alt="" className='w-full md:w-[unset]' />
           <b className="text-xl md:text-2xl">Food Delivery</b>
           <p className="text-sm md:text-lg">
             Feeling hungry? Craving your favorite cuisine? Our food delivery
@@ -70,8 +70,8 @@ export default function Solutions() {
             order, and savor the delights from your favorite restaurants.
           </p>
         </nav>
-        <nav className="text-center flex flex-col min-w-[90%] md:min-w-[unset] md:w-full gap-3 items-center bg-white rounded-xl px-3 md:px-6 py-4 md:py-8 col-span-2">
-          <Image src={solution3} alt="" />
+        <nav className="md:text-center flex flex-col min-w-[90%] md:min-w-[unset] md:w-full gap-3 items-center bg-white rounded-xl px-3 md:px-6 py-4 md:py-8 col-span-2">
+          <Image src={solution3} alt="" className='w-full md:w-[unset]' />
           <b className="text-xl md:text-2xl">Bike Rental</b>
           <p className="text-sm md:text-lg">
             Embrace the eco-friendly way of commuting with our bike booking
@@ -79,8 +79,8 @@ export default function Solutions() {
             carbon footprint. Convenience and sustainability - all in one!
           </p>
         </nav>
-        <nav className="text-center flex flex-col min-w-[90%] md:min-w-[unset] md:w-full gap-3 items-center bg-white rounded-xl px-3 md:px-6 py-4 md:py-8 col-span-2">
-          <Image src={solution4} alt="" />
+        <nav className="md:text-center flex flex-col min-w-[90%] md:min-w-[unset] md:w-full gap-3 items-center bg-white rounded-xl px-3 md:px-6 py-4 md:py-8 col-span-2">
+          <Image src={solution4} alt="" className='w-full md:w-[unset]' />
           <b className="text-xl md:text-2xl">Grocery Shopping</b>
           <p className="text-sm md:text-lg">
             Grocery shopping made hassle-free! With our grocery delivery
@@ -88,8 +88,8 @@ export default function Solutions() {
             to your cart, and have them delivered right to your kitchen.
           </p>
         </nav>
-        <nav className="text-center flex flex-col min-w-[90%] md:min-w-[unset] md:w-full gap-3 items-center bg-white rounded-xl px-3 md:px-6 py-4 md:py-8 col-start-2 col-span-2">
-          <Image src={solution5} alt="" />
+        <nav className="md:text-center flex flex-col min-w-[90%] md:min-w-[unset] md:w-full gap-3 items-center bg-white rounded-xl px-3 md:px-6 py-4 md:py-8 col-start-2 col-span-2">
+          <Image src={solution5} alt="" className='w-full md:w-[unset]' />
           <b className="text-xl md:text-2xl">Parcel Delivery</b>
           <p className="text-sm md:text-lg">
             Need to send a package urgently? Our courier delivery service
@@ -97,8 +97,8 @@ export default function Solutions() {
             Trust us to handle your deliveries with utmost care and efficiency.
           </p>
         </nav>
-        <nav className="text-center flex flex-col min-w-[90%] md:min-w-[unset] md:w-full gap-3 items-center bg-white rounded-xl px-3 md:px-6 py-4 md:py-8 col-end-6 col-span-2">
-          <Image src={solution6} alt="" />
+        <nav className="md:text-center flex flex-col min-w-[90%] md:min-w-[unset] md:w-full gap-3 items-center bg-white rounded-xl px-3 md:px-6 py-4 md:py-8 col-end-6 col-span-2">
+          <Image src={solution6} alt="" className='w-full md:w-[unset]' />
           <b className="text-xl md:text-2xl">Home Cleaning</b>
           <p className="text-sm md:text-lg">
             Sit back, relax, and let us take care of your home. Our home
