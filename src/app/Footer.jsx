@@ -9,7 +9,7 @@ import appstore from '@/assets/appstore.svg';
 import fline from '@/assets/fline.svg';
 export default function Footer() {
   return (
-    <footer className="flex flex-col bg-[#000000] relative gap-10 md:gap-20 z-0 pt-10 md:pt-20 px-3 md:px-24 font-[400] text-sm md:text-base text-[rgba(255,255,255,0.70)]">
+    <footer className="flex flex-col bg-[#000000] relative gap-10 md:gap-20 z-0 pt-10 md:pt-20 px-5 md:px-24 font-[400] text-sm md:text-base text-[rgba(255,255,255,0.70)]">
       <Image src={fline} alt="" className='absolute w-full h-full z-[-1] left-0 top-0 opacity-80' />
       <div className="gap-5  grid grid-cols-2 md:grid-cols-4">
         <nav className="flex flex-col gap-5 col-span-2 md:col-span-1">

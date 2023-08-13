@@ -11,7 +11,7 @@ export default function Welcome() {
         <Image src={underscore} alt="" className="w-2/3 md:w-[unset]" />
       </div>
       <figure className='px-3 md:px-24 w-full bg-[#C0D1D280] flex justify-center'>
-        <Image src={welcome} alt="" className='w-1/2' />
+        <Image src={welcome} alt="" className='md:w-1/2 w-full' />
       </figure>
     </main>
   );

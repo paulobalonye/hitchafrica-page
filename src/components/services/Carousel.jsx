@@ -33,8 +33,8 @@ const list = [
 export class MyCarousel extends Component {
   render() {
     return (
-      <div className="relative py-10 h-[80vh] w-full bg-red- flex justify-center items-center">
-        <ReactCardCarousel autoplay={true} autoplay_speed={5000} className='w-full bg-green-500'>
+      <div className="relative py-10 min-h-fit md:h-[80vh] w-full flex justify-center items-center">
+        <ReactCardCarousel autoplay={true} autoplay_speed={5000} className='w-full h-fit' style={{height: 'fit'}}>
           <div className="w-full shadow-xl px-5 md:px-10 flex flex-col md:grid grid-cols-[1fr_2fr] gap-5 md:gap-7 items-center py-10 rounded-3xl bg-white">
             <figure className="w-full flex flex-col justify-center items-start gap-2 md:px-10">
               <Image src={rider} alt="" className="" />

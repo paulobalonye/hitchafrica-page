@@ -11,7 +11,7 @@ export default function Solutions() {
         <Image src={underscore} alt="" className="w-2/3 md:w-[unset]" />
       </div>
       <div className="w-full">
-        <MyCarousel />
+        {/* <MyCarousel /> */}
       </div>
     </main>
   );
