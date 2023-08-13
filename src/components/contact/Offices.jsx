@@ -6,13 +6,13 @@ export default function Offices() {
       <Image
         src={bg}
         alt=""
-        className="absolute w-full h-full  top-0 left-0 z-[-1]"
+        className="absolute w-full h-full  top-0 left-0 z-[-1] object-cover md:object-contain"
       />
       <h3 className="font-[700] text-3xl md:text-[48px] text-primary">
         Our Offices
       </h3>
       <div className="text-[#343D48] w-full flex flex-col md:flex-row justify-center gap-5 md:gap-10 items-center z-10">
-        <nav className="w-1/3 p-10 bg-white flex flex-col gap-5 shadow leading-normal rounded-3xl">
+        <nav className="w-[85%] md:w-1/3 p-10 bg-white flex flex-col gap-5 shadow leading-normal rounded-3xl">
           <b className=" text-2xl font-[700]">La Crosse</b>
           <p>
             232 Third Street North Suite 456 <br />
@@ -28,7 +28,7 @@ export default function Offices() {
             </p>
           </div>
         </nav>
-        <nav className="w-1/3 p-10 bg-white flex flex-col gap-5 shadow leading-normal rounded-3xl">
+        <nav className="w-[85%] md:w-1/3 p-10 bg-white flex flex-col gap-5 shadow leading-normal rounded-3xl">
           <b className=" text-2xl font-[700]">New York</b>
           <p>
           232 Third Street North Suite 456 <br />

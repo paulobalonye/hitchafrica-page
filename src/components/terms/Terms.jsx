@@ -14,90 +14,90 @@ export default function Terms() {
   const [active, setActive] = useState(0);
   return (
     <main className="flex flex-col items-center">
-      <div className="w-full bg-[#F9F9F9] flex flex-col items-center">
-        <div className="w-1/2 grid grid-cols-4 items-center justify-center gap-14 py-16 font-[600] text-[600] text-primary text-center">
-          <figure className="flex flex-col gap-4">
+      <div className="w-full px-5 bg-[#F9F9F9] flex flex-col items-center">
+        <div className="w-full md:w-1/2 grid grid-cols-2 md:grid-cols-4 items-center justify-center gap-5 md:gap-14 py-16 font-[600] text-[600] text-primary text-center">
+          <figure className="flex flex-col gap-4 w-full">
             <Image
               src={terms1}
               alt=""
-              className={`rounded-md hover:scale-[1.1] ${
+              className={`rounded-md hover:scale-[1.1] w-full ${
                 active === 0 ? "shadow-2xl" : "shadow"
               } `}
               onClick={() => setActive(0)}
             />
             <figcaption>Introduction</figcaption>
           </figure>
-          <figure className="flex flex-col gap-4">
+          <figure className="flex flex-col gap-4 w-full">
             <Image
               src={terms2}
               alt=""
-              className={`rounded-md hover:scale-[1.1] ${
+              className={`rounded-md hover:scale-[1.1] w-full ${
                 active === 1 ? "shadow-2xl" : "shadow"
               } `}
               onClick={() => setActive(1)}
             />
             <figcaption>Acceptance of Terms</figcaption>
           </figure>
-          <figure className="flex flex-col gap-4">
+          <figure className="flex flex-col gap-4 w-full">
             <Image
               src={terms3}
               alt=""
-              className={`rounded-md hover:scale-[1.1] ${
+              className={`rounded-md hover:scale-[1.1] w-full ${
                 active === 2 ? "shadow-2xl" : "shadow"
               } `}
               onClick={() => setActive(2)}
             />
             <figcaption>Service Eligibility</figcaption>
           </figure>
-          <figure className="flex flex-col gap-4">
+          <figure className="flex flex-col gap-4 w-full">
             <Image
               src={terms4}
               alt=""
-              className={`rounded-md hover:scale-[1.1] ${
+              className={`rounded-md hover:scale-[1.1] w-full ${
                 active === 3 ? "shadow-2xl" : "shadow"
               } `}
               onClick={() => setActive(3)}
             />
             <figcaption>User Accounts</figcaption>
           </figure>
-          <figure className="flex flex-col gap-4">
+          <figure className="flex flex-col gap-4 w-full">
             <Image
               src={terms5}
               alt=""
-              className={`rounded-md hover:scale-[1.1] ${
+              className={`rounded-md hover:scale-[1.1] w-full ${
                 active === 4 ? "shadow-2xl" : "shadow"
               } `}
               onClick={() => setActive(4)}
             />
             <figcaption>Service Modifications</figcaption>
           </figure>
-          <figure className="flex flex-col gap-4">
+          <figure className="flex flex-col gap-4 w-full">
             <Image
               src={terms6}
               alt=""
-              className={`rounded-md hover:scale-[1.1] ${
+              className={`rounded-md hover:scale-[1.1] w-full ${
                 active === 5 ? "shadow-2xl" : "shadow"
               } `}
               onClick={() => setActive(5)}
             />
             <figcaption>Termination of Services</figcaption>
           </figure>
-          <figure className="flex flex-col gap-4">
+          <figure className="flex flex-col gap-4 w-full">
             <Image
               src={terms7}
               alt=""
-              className={`rounded-md hover:scale-[1.1] ${
+              className={`rounded-md hover:scale-[1.1] w-full ${
                 active === 6 ? "shadow-2xl" : "shadow"
               } `}
               onClick={() => setActive(6)}
             />
             <figcaption>Governing Law and Jurisdiction</figcaption>
           </figure>
-          <figure className="flex flex-col gap-4">
+          <figure className="flex flex-col gap-4 w-full">
             <Image
               src={terms8}
               alt=""
-              className={`rounded-md hover:scale-[1.1] ${
+              className={`rounded-md hover:scale-[1.1] w-full ${
                 active === 7 ? "shadow-2xl" : "shadow"
               } `}
               onClick={() => setActive(7)}
@@ -110,8 +110,8 @@ export default function Terms() {
         className="w-full flex flex-col relative z-0 bg-cover bg-[top right] bg-no-repeat"
         style={{ backgroundImage: `url(${bg.src})` }}
       >
-        <div className="w-1/2 mx-auto px-5 py-20 flex flex-col gap-10">
-          <p className="flex items-center gap-3">
+        <div className="w-full md:w-1/2 mx-auto px-5 py-10 md:py-20 flex flex-col gap-5 md:gap-10">
+          <p className="flex flex-wrap md:items-center gap-1 md:gap-3 w-full">
             Terms and Conditions {">"}{" "}
             <b className="font-[600]">
               {active === 0
@@ -133,7 +133,7 @@ export default function Terms() {
                 : ""}
             </b>
           </p>
-          <h3 className="text-[40px] font-[700] border-b">
+          <h3 className="text-2xl md:text-[40px] font-[700] border-b">
             {active === 0
               ? "Introduction"
               : active === 1
@@ -154,7 +154,7 @@ export default function Terms() {
           </h3>
           <div>
             {active === 0 && (
-              <div className="flex flex-col gap-5 text-lg">
+              <div className="flex flex-col gap-5 md:text-lg">
                 <p>
                   Welcome to the Terms and Conditions page for the Hitch Mobile
                   App, provided to you by [Your Company Name], a leading
@@ -232,7 +232,7 @@ export default function Terms() {
               </div>
             )}
             {active === 1 && (
-              <div className="flex flex-col gap-5 text-lg">
+              <div className="flex flex-col gap-5 md:text-lg">
                 <p>
                   Welcome to the Terms and Conditions page for the Hitch Mobile
                   App, provided to you by [Your Company Name], a leading
@@ -247,7 +247,7 @@ export default function Terms() {
               </div>
             )}
             {active === 2 && (
-              <div className="flex flex-col gap-5 text-lg">
+              <div className="flex flex-col gap-5 md:text-lg">
                 <p>
                   Welcome to the Terms and Conditions page for the Hitch Mobile
                   App, provided to you by [Your Company Name], a leading
@@ -262,7 +262,7 @@ export default function Terms() {
               </div>
             )}
             {active === 3 && (
-              <div className="flex flex-col gap-5 text-lg">
+              <div className="flex flex-col gap-5 md:text-lg">
                 <p>
                   Welcome to the Terms and Conditions page for the Hitch Mobile
                   App, provided to you by [Your Company Name], a leading
@@ -277,7 +277,7 @@ export default function Terms() {
               </div>
             )}
             {active === 4 && (
-              <div className="flex flex-col gap-5 text-lg">
+              <div className="flex flex-col gap-5 md:text-lg">
                 <p>
                   Welcome to the Terms and Conditions page for the Hitch Mobile
                   App, provided to you by [Your Company Name], a leading
@@ -292,7 +292,7 @@ export default function Terms() {
               </div>
             )}
             {active === 5 && (
-              <div className="flex flex-col gap-5 text-lg">
+              <div className="flex flex-col gap-5 md:text-lg">
                 <p>
                   Welcome to the Terms and Conditions page for the Hitch Mobile
                   App, provided to you by [Your Company Name], a leading
@@ -307,7 +307,7 @@ export default function Terms() {
               </div>
             )}
             {active === 6 && (
-              <div className="flex flex-col gap-5 text-lg">
+              <div className="flex flex-col gap-5 md:text-lg">
                 <p>
                   Welcome to the Terms and Conditions page for the Hitch Mobile
                   App, provided to you by [Your Company Name], a leading
@@ -322,7 +322,7 @@ export default function Terms() {
               </div>
             )}
             {active === 7 && (
-              <div className="flex flex-col gap-5 text-lg">
+              <div className="flex flex-col gap-5 md:text-lg">
                 <p>
                   Welcome to the Terms and Conditions page for the Hitch Mobile
                   App, provided to you by [Your Company Name], a leading
