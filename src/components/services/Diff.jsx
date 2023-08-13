@@ -61,7 +61,7 @@ export default function Diff() {
       <div className="w-full text-center md:text-start px-5 md:px-24 text-white flex flex-col md:grid grid-cols-[1.2fr_2fr] gap-4 md:gap-12 items-center z-10 bg-[#1C595C] py-8 md:py-16 rounded-tl-[70px] rounded-br-[70px] md:rounded-tl-[100px] md:rounded-br-[100px]">
         <figure className="w-full flex flex-col justify-center items-center md:items-start gap-2 md:px-10">
           <b className="text-2xl md:text-[40px]">Bike Rental</b>
-          <Image src={service4} alt="" className="w-full md:h-[298px]" />
+          <Image src={service4} alt="" className="w-full md:w-[unset] md:h-[298px]" />
         </figure>
         <div className="w-full flex flex-col gap-4 md:gap-8 pr-10">
           <p className="text-sm md:text-xl leading-loose">

@@ -6,7 +6,7 @@ export default function Offices() {
       <Image
         src={bg}
         alt=""
-        className="absolute w-full h-full  top-0 left-0 z-[-1] object-cover md:object-contain"
+        className="absolute w-full h-full  top-0 left-0 z-[-1] object-cover md:object-fill"
       />
       <h3 className="font-[700] text-3xl md:text-[48px] text-primary">
         Our Offices

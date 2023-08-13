@@ -11,7 +11,7 @@ export default function Home() {
       <Image
         src={map}
         alt=""
-        className="absolute top-[17%] md:top-[15%] w-full h-[40%] object-contain z-[-1]"
+        className="absolute top-[17%] md:top-[18%] w-full h-[40%] object-contain md:object-fill z-[-1]"
       />
       <Image
         src={vector}

@@ -71,7 +71,7 @@ export default function Footer() {
         </nav>
       </div>
       <div className="text-xs md:text-base py-4 md:py-8 flex flex-col gap-1 justify-center items-center text-center border-[rgba(255,255,255,0.20)] border-t">
-        <span>© Hitch Africa 2023</span>
+        <span> © Hitch Africa Copyright Reserved 2023 </span>
       </div>
     </footer>
   );

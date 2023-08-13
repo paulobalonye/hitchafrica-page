@@ -3,7 +3,7 @@ import React from "react";
 export default function Form() {
   return (
     <main className="flex flex-col">
-      <div className="flex flex-col md:flex-row gap-10 justify-evenly items-center py-10 md:py-28 bg-primary">
+      <div className="w-full flex flex-col md:flex-row gap-10 justify-evenly items-center py-10 md:py-28 bg-primary">
         <b className="text-3xl md:text-[40px] font-[700] text-white">Customer Support</b>
         <button className="px-14 py-4 text-lg bg-white text-primary rounded-lg font-[600]">
           Contact Us

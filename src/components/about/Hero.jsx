@@ -15,7 +15,7 @@ export default function Hero() {
       <Image
         src={bg}
         alt=""
-        className="absolute w-full h-full  top-0 left-0 z-[-2] object-cover"
+        className="absolute w-full h-full  top-0 left-0 z-[-2] object-cover md:object-fill"
       />
       <div className="w-full flex flex-col gap-4 md:gap-8 md:py-20">
       <h4 className="text-3xl md:text-[56px] font-[700] leading-normal">

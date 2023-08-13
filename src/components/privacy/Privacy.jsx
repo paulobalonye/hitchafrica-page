@@ -61,15 +61,15 @@ export default function Privacy() {
         className="w-full flex flex-col relative z-0 bg-cover bg-[top right] bg-no-repeat"
         style={{ backgroundImage: `url(${bg.src})` }}
       >
-        <div className="w-1/2 py-20 mx-auto px-5 flex flex-col gap-10 justify-center items-center">
-          <b className="text-[40px] font-[700] leading-none">
+        <div className="w-full md:w-1/2 py-20 mx-auto px-5 flex flex-col gap-5 md:gap-10 justify-center items-center">
+          <b className="text-3xl md:text-[40px] font-[700] leading-none text-center text-primary">
             Privacy Policy
           </b>
           <p>as of 08 August 2020</p>
           <div className="flex flex-col justify-evenly w-full gap-5">
             {List.map((info, index) => (
               <nav
-                className={`px-5 rounded-lg w-full flex flex-col leading-relaxed  transition ease-in-out duration-1000 h-fit text-text ${
+                className={`rounded-lg w-full flex flex-col leading-relaxed  transition ease-in-out duration-1000 h-fit text-text ${
                   activeIndices.has(index) ? "gap-3" : ""
                 }`}
                 key={index}
@@ -82,7 +82,7 @@ export default function Privacy() {
                   <Image
                     alt="drop"
                     src={drop}
-                    className={`transition-all ease-in-out duration-700 text-primary ${
+                    className={`transition-all ease-in-out duration-700 text-primary h-8 md:h-10 ${
                       activeIndices.has(index) ? "rotate-180" : ""
                     }`}
                   />
@@ -107,8 +107,8 @@ export default function Privacy() {
           </div>
         </div>
       </div>
-      <div className="w-full flex justify-evenly items-center py-28 px-5 bg-primary">
-        <b className="text-[40px] font-[700] text-white">Customer Support</b>
+      <div className="w-full flex flex-col md:flex-row gap-10 justify-evenly items-center py-10 md:py-28 bg-primary">
+        <b className="text-3xl md:text-[40px] font-[700] text-white">Customer Support</b>
         <button className="px-14 py-4 text-lg bg-white text-primary rounded-lg font-[600]">
           Contact Us
         </button>

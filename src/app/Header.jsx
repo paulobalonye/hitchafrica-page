@@ -12,7 +12,7 @@ export default function Header() {
   const [country, setCountry] = useState("NG");
   return (
     <header className="sticky bg-white top-0 left-0 z-[999999] text-white md:text-primary font-[600] shadow-md px-3 md:px-24 py-4 flex justify-between items-center">
-      <a href="#top">
+      <a href="/">
         <Image src={logo} alt="" className=" object-contain" />
       </a>
       <nav
