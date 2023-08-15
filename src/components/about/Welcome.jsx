@@ -1,6 +1,6 @@
 import Image from "next/image";
 import underscore from "@/assets/underscore.svg";
-import welcome from '@/assets/welcome.svg'
+import welcome from '@/assets/welcome.png'
 export default function Welcome() {
   return (
     <main className="py-10 md:py-24 flex flex-col gap-5 md:gap-14 z-10">

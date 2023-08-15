@@ -1,8 +1,8 @@
-import how1 from "@/assets/how/how3.svg";
-import how2 from "@/assets/how/how1.svg";
-import how3 from "@/assets/how/how4.svg";
-import how4 from "@/assets/how/how4.svg";
-import how5 from "@/assets/how/how5.svg";
+import how1 from "@/assets/howw/how1.png";
+import how2 from "@/assets/howw/how2.png";
+import how3 from "@/assets/howw/how3.png";
+import how4 from "@/assets/howw/how4.png";
+import how5 from "@/assets/howw/how5.png";
 import underscore from "@/assets/underscore.svg";
 import Image from "next/image";
 import playstore from "@/assets/playstore.svg";
@@ -19,7 +19,7 @@ export default function How() {
       </div>
       <div className="w-full flex flex-col-reverse md:grid grid-cols-2 gap-8 md:gap-20 items-center z-10">
         <figure className="w-full flex flex-col gap-5 justify-center items-center">
-          <Image src={how1} alt="" className="h-[90vw] md:h-[550px]" />
+          <Image src={how1} alt="" className="h-full" />
           <nav className="md:hidden grid grid-cols-2 gap-4 items-center">
             <Image src={playstore} alt="" />
             <Image src={appstore} alt="" />
@@ -64,12 +64,12 @@ export default function How() {
           </div>
         </div>
         <figure className="w-full flex justify-center items-center">
-          <Image src={how2} alt="" className="h-[90vw] md:h-[550px]" />
+          <Image src={how2} alt="" className="h-full" />
         </figure>
       </div>
       <div className="w-full flex flex-col-reverse md:grid grid-cols-2 gap-8 md:gap-20 items-center z-10">
         <figure className="w-full flex justify-center items-center">
-          <Image src={how3} alt="" className="h-[90vw] md:h-[550px]" />
+          <Image src={how3} alt="" className="h-full" />
         </figure>
         <div className="flex gap-3 md:gap-6 items-start">
           <span className="h-8 w-8 md:h-12 md:w-12 flex justify-center items-center text-white bg-primary font-[700] text-lg mt-2 md:mt-4">
@@ -108,7 +108,7 @@ export default function How() {
           </div>
         </div>
         <figure className="w-full flex justify-center items-center">
-          <Image src={how4} alt="" className="h-[90vw] md:h-[550px]" />
+          <Image src={how4} alt="" className="h-full" />
         </figure>
       </div>
       <div className="flex flex-col md:grid grid-cols-2 h-fit min-h-[50vh] bg-primary items-center rounded-xl">

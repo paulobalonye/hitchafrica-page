@@ -1,5 +1,6 @@
 import Image from "next/image";
 import underscore from "@/assets/underscore.svg";
+import Carousel from "./Card";
 export default function Solutions() {
   return (
     <main className="px-3 md:px-24 py-10 md:py-24 flex flex-col gap-5 md:gap-14 z-10">
@@ -11,6 +12,7 @@ export default function Solutions() {
       </div>
       <div className="w-full">
         {/* <MyCarousel /> */}
+        {/* <Carousel /> */}
       </div>
     </main>
   );

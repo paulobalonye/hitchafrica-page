@@ -1,12 +1,12 @@
 import Image from "next/image";
 import playstore from "@/assets/playstore.svg";
 import appstore from "@/assets/appstore.svg";
-import hero from "@/assets/hero.svg";
+import hero from "@/assets/hero.png";
 import fline from '@/assets/fline.svg';
 
 export default function Hero() {
   return (
-    <div className="relative px-5 md:px-24 rounded-bl-[100px] md:rounded-bl-[200px] text-white bg-primary w-full py-10 flex flex-col md:grid grid-cols-2 gap-8 md:gap-20 items-center z-[0]">
+    <div className="relative px-5 md:px-24 rounded-bl-[100px] md:rounded-bl-[200px] text-white bg-primary w-full py-10 md:py-0 flex flex-col md:grid grid-cols-2 gap-8 md:gap-20 items-center z-[0]">
       <Image src={fline} alt="" className='absolute w-full h-full  top-0 left-0 z-[-1]' />
       <div className="w-full flex flex-col gap-4 md:gap-8 md:py-20">
         <h4 className="text-3xl md:text-[56px] font-[700] leading-normal">

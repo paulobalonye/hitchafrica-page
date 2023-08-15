@@ -1,8 +1,6 @@
 "use client";
 import logo from "@/assets/logo-h.svg";
 import { useState } from "react";
-import menu from "@/assets/menu.svg";
-import ham from "@/assets/cancel.svg";
 import Image from "next/image";
 import ReactFlagsSelect from "react-flags-select";
 import Link from "next/link";
@@ -20,7 +18,7 @@ export default function Header() {
           open
             ? " left-0 top-14  py-5  bg-primary text-white px-5 md:px-0"
             : " top-14 left-[-900%]"
-        } absolute md:static  w-full z-[999999999] md:w-[unset] flex flex-col md:flex-row shadow-md md:shadow-none  gap-5 md:gap-10 items-center transition-all duration-1000 ease-in-out overflow-y-scroll snap`}
+        } absolute md:static  w-full z-[999999999] md:w-[unset] text-lg flex flex-col md:flex-row shadow-md md:shadow-none  gap-5 md:gap-10 items-center transition-all duration-1000 ease-in-out overflow-y-scroll snap`}
       >
         <a
           href="/"
