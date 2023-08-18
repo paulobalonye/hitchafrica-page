@@ -1,30 +1,41 @@
-import join from "@/assets/join.svg";
-import curl from "@/assets/curl.svg";
-import Image from "next/image";
+import bg from "@/assets/wave.svg";
+import { FaCheck } from "react-icons/fa";
 export default function Join() {
   return (
-    <main className="bg-primary py-10 px-3 md:px-24 text-white z-10">
-      <div className="w-full flex flex-col md:grid grid-cols-2 gap-8 md:gap-20 items-center z-10">
-        <div className="w-full flex flex-col gap-4 md:gap-8 relative">
-          <Image src={curl} alt="" className="hidden md:block absolute right-10 top-1/3" />
-          <h5 className="md:text-lg">JOIN US</h5>
-          <h4 className="text-xl md:text-[46px] font-[700] leading-normal">
-            Become a Merchant or Service Provider
-          </h4>
-          <button className="px-4 md:px-8 h-10 md:h-12 md:text-lg font-[600] text-primary w-fit bg-[#F0F9F5] rounded-md">
-            Become a Restaurant Partner
-          </button>
-          <button className="px-4 md:px-8 h-10 md:h-12 md:text-lg font-[600] text-primary w-fit bg-[#F0F9F5] rounded-md">
-            Become a Service Provider
-          </button>
-          <button className="px-4 md:px-8 h-10 md:h-12 md:text-lg font-[600] text-primary w-fit bg-[#F0F9F5] rounded-md">
-            Become a Driver
-          </button>
-        </div>
-        <figure className="w-full flex justify-center items-center">
-          <Image src={join} alt="" className="h-[90vw] md:h-[450px]" />
-        </figure>
+    <section
+      className="px-5 md:px-20 py-10 md:py-20 bg-cover bg-center bg-no-repeat text-center md:min-h-[70vh] text-white flex flex-col gap-10 relative items-center justify-center"
+      style={{ backgroundImage: `url(${bg.src})` }}
+    >
+      <p className="text-primary">NEWSLETTER</p>
+      <h3 className="text-3xl md:text-[48px] font-[800] text-dark leading-normal">
+        Join to get <br className="hidden md:block" /> exclusive contents.
+      </h3>
+      <form className="md:w-1/3 flex flex-col gap-5 items-center justify-center text-dark">
+        <input
+          type="email"
+          placeholder="Your email address"
+          className="bg-inherit rounded-md w-full h-12 md:h-14 px-5 border outline-none placeholder:text-[#A4A4A4] placeholder:text-sm"
+        />
+        <button
+          className={`text-white rounded-md w-full h-12 md:h-14 px-4 md:px-8 font-[500] bg-primary outline-none `}
+        >
+          Join Now
+        </button>
+      </form>
+      <div className='text-[#020202] flex justify-center gap-10 items-center text-xl'>
+        <p className="flex items-center gap-2">
+          <FaCheck className="text-primary" />
+          Weekly reports
+        </p>
+        <p className="flex items-center gap-2">
+          <FaCheck className="text-primary" />
+          Unlimited free resources
+        </p>
+        <p className="flex items-center gap-2">
+          <FaCheck className="text-primary" />
+          Premium contents
+        </p>
       </div>
-    </main>
+    </section>
   );
 }

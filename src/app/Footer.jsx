@@ -1,32 +1,47 @@
-import Link from 'next/link';
-import logo from '@/assets/logo.png';
-import Image from 'next/image';
-import soc1 from '@/assets/soc1.svg';
-import soc2 from '@/assets/soc2.svg';
-import soc3 from '@/assets/soc3.svg';
-import playstore from '@/assets/playstore.svg';
-import appstore from '@/assets/appstore.svg';
-import fline from '@/assets/fline.svg';
+import Link from "next/link";
+import logo from "@/assets/logo-h.svg";
+import Image from "next/image";
+import playstore from "@/assets/playstore.svg";
+import appstore from "@/assets/appstore.svg";
+import fline from "@/assets/fline.svg";
+import { FaEnvelope, FaPhone } from "react-icons/fa";
 export default function Footer() {
   return (
-    <footer className="flex flex-col bg-[#000000] relative gap-10 md:gap-20 z-0 pt-10 md:pt-20 px-5 md:px-24 font-[400] text-sm md:text-base text-[rgba(255,255,255,0.70)]">
-      <Image src={fline} alt="" className='absolute w-full h-full z-[-1] left-0 top-0 opacity-80' />
-      <div className="gap-5  grid grid-cols-2 md:grid-cols-4">
+    <footer className="flex flex-col bg-[#F8F8FC] relative gap-10 md:gap-20 z-0 pt-10 md:pt-20 px-5 md:px-20 font-[400] text-sm md:text-base">
+      <div className="flex flex-col text-center justify-center items-center gap-10 py-20">
+        <div className="flex flex-col gap-5 text-dark text-center">
+          <b className="text-[48px] font-[800] leading-normal">
+            See the difference after
+            <br className="hidden md:block" />
+            you try Hitch!
+          </b>
+          <p>Start your trial today!</p>
+        </div>
+        <button className="h-14 w-fit px-5 bg-primary text-white rounded-md">
+          Start free trial
+        </button>
+      </div>
+      <div className="gap-5  grid grid-cols-2 md:grid-cols-4 text-dark">
         <nav className="flex flex-col gap-5 col-span-2 md:col-span-1">
-          <Image src={logo} alt="" className=" mr-auto" />
-          <nav className='flex items-center gap-3'>
-            <Image src={soc1} alt="" className='h-8 w-8'/>
-            <Image src={soc2} alt="" className='h-8 w-8'/>
-            <Image src={soc3} alt="" className='h-8 w-8'/>
+          <Image src={logo} alt="" className="" />
+          <nav className="flex flex-col gap-3 text-xl">
+            <p className="flex gap-4 items-center">
+              <FaPhone />
+              +1 234 56 78
+            </p>
+            <p className="flex gap-4 items-center">
+              <FaEnvelope />
+              info@hitchafrica.com
+            </p>
           </nav>
-          <nav className='grid grid-cols-2 md:flex gap-4 items-center'>
-            <Image src={playstore} alt=""  />
-            <Image src={appstore} alt=""  />
+          <nav className="grid grid-cols-2 md:flex gap-4 items-center">
+            <Image src={playstore} alt="" />
+            <Image src={appstore} alt="" />
           </nav>
         </nav>
         <nav className="flex flex-col md:items-center">
           <div className="flex flex-col gap-5">
-            <h3 className="font-[600] md:font-[700] text-white">Services</h3>
+            <h3 className="font-[600] md:font-[700] text-2xl">Services</h3>
             <ul className="flex flex-col gap-3">
               <Link href="/">Rides</Link>
               <Link href="/">Food delivery</Link>
@@ -34,17 +49,14 @@ export default function Footer() {
               <Link href="/">Grocery delivery</Link>
               <Link href="/">Courier delivery</Link>
               <Link href="/">Home cleaning</Link>
-              <Link href="/">Tutors</Link>
-              <Link href="/">Massage</Link>
-              <Link href="/">Car repair</Link>
-              <Link href="/">Car wash</Link>
-              <Link href="/">Security</Link>
             </ul>
           </div>
         </nav>
         <nav className="flex flex-col md:items-center">
           <div className="flex flex-col gap-5">
-            <h3 className="font-[600] md:font-[700] text-white">Partner with Hitch Africa</h3>
+            <h3 className="font-[600] md:font-[700] text-2xl">
+              Partner with Hitch
+            </h3>
             <ul className="flex flex-col gap-3">
               <Link href="/">Sign up as a driver</Link>
               <Link href="/">Sign up as a courier</Link>
@@ -56,21 +68,19 @@ export default function Footer() {
         </nav>
         <nav className="flex flex-col md:items-center">
           <div className="flex flex-col gap-5">
-            <h3 className="font-[600] md:font-[700] text-white">Company</h3>
+            <h3 className="font-[600] md:font-[700] text-2xl">Company</h3>
             <ul className="flex flex-col gap-3">
               <Link href="/about">About Us</Link>
               <Link href="/">Eco-friendly goal</Link>
               <Link href="/">Careers</Link>
               <Link href="/legal-compliance">Legal compliance</Link>
-              <Link href="/">Press</Link>
-              <Link href="/">Blog</Link>
               <Link href="/terms-and-condition">Terms & Condition</Link>
               <Link href="/privacy-policy">Privacy Policy</Link>
             </ul>
           </div>
         </nav>
       </div>
-      <div className="text-xs md:text-base py-4 md:py-8 flex flex-col gap-1 justify-center items-center text-center border-[rgba(255,255,255,0.20)] border-t">
+      <div className="text-xs md:text-base py-4 md:py-8 flex flex-col gap-1 justify-center items-center text-center border-[#9EA9A8] border-t">
         <span> © Hitch Africa Copyright Reserved 2023 </span>
       </div>
     </footer>

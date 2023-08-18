@@ -1,122 +1,43 @@
 import Image from "next/image";
-import underscore from "@/assets/underscore.svg";
-import solution1 from "@/assets/solution1.png";
-import solution2 from "@/assets/solutions/solution1.png";
-import solution3 from "@/assets/solutions/solution2.png";
-import solution4 from "@/assets/solutions/solution3.png";
-import solution5 from "@/assets/solutions/solution4.png";
-import solution6 from "@/assets/solutions/solution5.png";
-import car from "@/assets/car.svg";
+import feature from "@/assets/feature.jpeg";
+import bar from "@/assets/chart.svg";
+import dash from "@/assets/dash.svg";
+
 export default function Solutions() {
   return (
-    <main className="px-3 md:px-24 py-10 md:py-24 flex flex-col gap-5 md:gap-14 z-10">
-      <div className="flex flex-col items-center justify-center">
-        <h3 className="font-[700] text-3xl md:text-[48px] text-primary">
-          Solutions
-        </h3>
-        <Image src={underscore} alt="" className="w-2/3 md:w-[unset]" />
-      </div>
-      <div className="w-full flex flex-col-reverse md:grid grid-cols-2 gap-5 md:gap-10 items-center z-10">
-        <figure className="w-full flex justify-center items-center">
-          <Image src={solution1} alt="" className="w-full rounded-xl" />
+    <main className="px-5 md:px-20 py-10 md:py-20 flex flex-col gap-5 md:gap-14 z-10">
+      <div className="w-full flex flex-col md:flex-row justify-evenly gap-8 md:gap-20 items-center z-10">
+        <figure className="w-full flex h-full justify-center items-center">
+          <Image src={feature} alt="" className="w-full rounded-xl" />
         </figure>
-        <div className="w-full flex flex-col gap-4 md:gap-8 ">
-          <h4 className="text-primary text-xl md:text-[40px] font-[700] leading-normal">
-            Effortless Commuting
+        <div className="w-full flex flex-col gap-5 md:gap-14">
+          <p className="text-primary">OUR FEATURES</p>
+          <h4 className="text-[#0B1621] text-xl md:text-[48px] font-[800] leading-normal">
+            Upgrade to pro to unlock all features.
           </h4>
-          <p className="text-sm md:text-2xl text-[#343D48]">
-            At HitchAfrica, we understand the importance of a reliable and
-            comfortable transportation service. With our effortless taxi booking
-            service, getting from point A to point B has never been smoother.
-          </p>
-          <div className="md:flex flex-col gap-3 rounded-2xl bg-white p-5 hidden">
-            <h4 className="text-primary text-lg md:text-xl font-[700] leading-normal">
-              A Fleet You Can Trust
-            </h4>
-            <p className="text-lg text-[#343D48]">
-              We take pride in our diverse fleet of well-maintained vehicles.
-              From compact cars perfect for solo travelers or couples to
-              spacious SUVs ideal for group outings, we have the perfect ride
-              for every occasion
-            </p>
+          <div className='flex flex-col md:grid grid-cols-2 gap-5'>
+            <nav className="flex gap-4 items-start">
+              <Image src={bar} alt="" />
+              <div className="flex flex-col gap-4">
+                <b className="text-xl font-[800]">Analytical</b>
+                <p>
+                  Our analytical tools make it easy to track progress in
+                  real-time.
+                </p>
+              </div>
+            </nav>
+            <nav className="flex gap-4 items-start">
+              <Image src={dash} alt="" />
+              <div className="flex flex-col gap-4">
+                <b className="text-xl font-[800]">Dashboard</b>
+                <p>
+                  Our dashboard is easy to understand and track your business.
+                </p>
+              </div>
+            </nav>
           </div>
-          <div className="hidden md:flex items-end -translate-x-1/4">
-            <div className="flex flex-col gap-3 rounded-2xl bg-white p-5">
-              <h4 className="text-primary text-lg md:text-xl font-[700] leading-normal">
-                Safety First
-              </h4>
-              <p className="text-lg text-[#343D48]">
-                Your safety is our top priority. All our drivers undergo
-                rigorous background checks and are trained to adhere to the
-                highest safety standards. Rest assured, you are in the hands of
-                skilled professionals who value your well-being.
-              </p>
-            </div>
-            <Image
-              src={car}
-              alt=""
-              className="-ml-[50px] translate-y-1/2 mt-auto inset-0"
-            />
-          </div>
+          <button className="rounded-xl bg-primary px-8 h-14 text-white w-fit">Get Started Now</button>
         </div>
-      </div>
-      <div className="flex overflow-x-scroll snap md:grid grid-cols-6 gap-5 md:gap-10 md:px-24 w-full">
-        <nav className="md:text-center flex flex-col min-w-[90%] md:min-w-[unset] md:w-full gap-3 items-center bg-white rounded-xl col-span-2 py-4 md:py-8">
-          <Image src={solution2}  alt="" className="w-full md:w-2/3 object-cover" />
-          <div className="flex flex-col gap-3 px-3 md:px-6">
-            <b className="text-primary text-xl md:text-2xl">Food Delivery</b>
-            <p className="text-sm md:text-lg">
-              Feeling hungry? Craving your favorite cuisine? Our food delivery
-              service brings a world of flavors to your doorstep. Just choose,
-              order, and savor the delights from your favorite restaurants.
-            </p>
-          </div>
-        </nav>
-        <nav className="md:text-center flex flex-col min-w-[90%] md:min-w-[unset] md:w-full gap-3 items-center bg-white rounded-xl col-span-2 py-4 md:py-8">
-          <Image src={solution3} alt="" className="w-full md:w-2/3 object-cover" />
-          <div className="flex flex-col gap-3 px-3 md:px-6">
-            <b className="text-primary text-xl md:text-2xl">Bike Rental</b>
-            <p className="text-sm md:text-lg">
-              Embrace the eco-friendly way of commuting with our bike booking
-              service. Enjoy the breeze and beat the traffic while reducing your
-              carbon footprint. Convenience and sustainability - all in one!
-            </p>
-          </div>
-        </nav>
-        <nav className="md:text-center flex flex-col min-w-[90%] md:min-w-[unset] md:w-full gap-3 items-center bg-white rounded-xl col-span-2 py-4 md:py-8">
-          <Image src={solution4} alt="" className="w-full md:w-2/3 object-cover" />
-          <div className="flex flex-col gap-3 px-3 md:px-6">
-            <b className="text-primary text-xl md:text-2xl">Grocery Shopping</b>
-            <p className="text-sm md:text-lg">
-              Grocery shopping made hassle-free! With our grocery delivery
-              service, you can browse through a wide range of products, add them
-              to your cart, and have them delivered right to your kitchen.
-            </p>
-          </div>
-        </nav>
-        <nav className="md:text-center flex flex-col min-w-[90%] md:min-w-[unset] md:w-full gap-3 items-center bg-white rounded-xl col-start-2 col-span-2 py-4 md:py-8">
-          <Image src={solution5} alt="" className="w-full md:w-2/3 object-cover" />
-          <div className="flex flex-col gap-3 px-3 md:px-6">
-            <b className="text-primary text-xl md:text-2xl">Parcel Delivery</b>
-            <p className="text-sm md:text-lg">
-              Need to send a package urgently? Our courier delivery service
-              ensures your parcels reach their destination securely and on time.
-              Trust us to handle your deliveries with utmost care and
-              efficiency.
-            </p>
-          </div>
-        </nav>
-        <nav className="md:text-center flex flex-col min-w-[90%] md:min-w-[unset] md:w-full gap-3 items-center bg-white rounded-xl col-end-6 col-span-2 py-4 md:py-8">
-          <Image src={solution6} alt="" className="w-full md:w-2/3 object-cover" />
-          <div className="flex flex-col gap-3 px-3 md:px-6">
-            <b className="text-primary text-xl md:text-2xl">Home Cleaning</b>
-            <p className="text-sm md:text-lg">
-              Sit back, relax, and let us take care of your home. Our home
-              cleaning service guarantees a spotless and sanitized living space,
-              giving you more time to enjoy the things you love.
-            </p>
-          </div>
-        </nav>
       </div>
     </main>
   );

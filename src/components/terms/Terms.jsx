@@ -10,6 +10,7 @@ import terms6 from "@/assets/terms/terms6.png";
 import terms7 from "@/assets/terms/terms7.png";
 import terms8 from "@/assets/terms/terms8.png";
 import bg from "@/assets/termsbg.svg";
+
 export default function Terms() {
   const [active, setActive] = useState(0);
   return (
