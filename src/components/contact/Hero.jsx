@@ -1,6 +1,6 @@
 import Image from "next/image";
 import hero from "@/assets/hero-contact.jpeg";
-import { FaEnvelope, FaMapMarker, FaPhone } from "react-icons/fa";
+import { FaEnvelope, FaMapMarker, FaPhoneAlt } from "react-icons/fa";
 export default function Hero() {
   return (
     <div className="relative px-5 py-10 md:py-16 md:min-h-screen w-full flex flex-col gap-5 md:gap-10 items-center">
@@ -13,8 +13,8 @@ export default function Hero() {
         </p>
       </div>
       <div className="flex flex-col md:flex-row md:justify-center md:items-center gap-10">
-        <Image src={hero} alt="" className="w-full h-full object-cover" />
-        <div className="flex flex-col gap-10 text-lg">
+        <Image src={hero} alt="" className="w-full md:w-[unset] h-full object-cover" />
+        <div className="w-full md:w-[unset] flex flex-col gap-10 text-lg">
           <nav className="flex flex-col gap-4">
             <b className='flex gap-2 text-xl'>
               <FaEnvelope /> EMAIL
@@ -26,7 +26,7 @@ export default function Hero() {
           </nav>
           <nav className="flex flex-col gap-4">
             <b className='flex gap-2 text-xl'>
-              <FaPhone /> PHONE
+              <FaPhoneAlt /> PHONE
             </b>
             <div>
               <p>+1 234 234 56 78</p>
