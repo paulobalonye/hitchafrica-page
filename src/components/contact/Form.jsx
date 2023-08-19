@@ -1,29 +1,79 @@
 import React from "react";
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 export default function Form() {
   return (
-    <main className="flex flex-col">
-      <div className="w-full flex flex-col md:flex-row gap-10 justify-evenly items-center py-10 md:py-28 bg-primary">
-        <b className="text-3xl md:text-[40px] font-[700] text-white">Customer Support</b>
-        <button className="px-14 py-4 text-lg bg-white text-primary rounded-lg font-[600]">
-          Contact Us
-        </button>
-      </div>
-      <div className="bg-[#1C595C] text-white px-5 flex justify-center py-14 md:py-20">
-        <div className="w-full md:w-1/2 flex flex-col gap-10 justify-center items-center text-center md:text-start">
-          <b className="text-3xl md:text-[40px] font-[700] leading-none">Contact Form</b>
-          <p className='text-lg'>We’re Open for any suggestion or just to have a chat</p>
-          <form className='flex flex-col gap-10 w-full items-center'>
-            <input type="text" className="h-12 w-full px-5 placeholder:text-[rgba(255,255,255,0.50)] bg-inherit rounded-md border-2 border-white" placeholder="Full Name" />
-            <input type="email" className="h-12 w-full px-5 placeholder:text-[rgba(255,255,255,0.50)] bg-inherit rounded-md border-2 border-white" placeholder="Email" />
-            <textarea
-              placeholder="Message"
-              className="h-32 px-5 border-2 w-full py-5 outline-none rounded-md placeholder:text-[rgba(255,255,255,0.50)] bg-inherit border-white"
-            />
-            <button className='border border-white h-12 px-5 w-fit text-lg font-[600] rounded-md'>SEND MESSAGE</button>
-          </form>
+    <section className="flex flex-col md:flex-row justify-evenly bg-[#F9FAFC] gap-10 px-5 md:px-20 py-10 md:py-20 w-full">
+      <div className=" flex flex-col gap-5">
+        <h3 className="text-lg text-primary">CONTACT US</h3>
+        <div className="flex flex-col gap-8">
+          <h3 className="font-[800] leading-normal text-dark text-[32px] md:text-[56px]">
+            Get connected <br className='hidden md:block' /> to grow better <br className='hidden md:block' /> business.
+          </h3>
+          <nav className="flex gap-5 items-center text-xl text-dark">
+            <a href="" target="_blank" rel="noopener noreferrer">
+              <FaFacebook className="" />
+            </a>
+            <a href="" target="_blank" rel="noopener noreferrer">
+              <FaTwitter className="" />
+            </a>
+            <a href="" target="_blank" rel="noopener noreferrer">
+              <FaInstagram className="" />
+            </a>
+            <a href="" target="_blank" rel="noopener noreferrer">
+              <FaLinkedin className="" />
+            </a>
+          </nav>
         </div>
       </div>
-    </main>
+        <form className="w-full md:w-1/2 p-5 md:p-10 rounded-xl bg-white flex flex-col  gap-10 ">
+          <div className="flex flex-col md:grid grid-cols-2 gap-5 items-center">
+            <label className="flex flex-col gap-1 w-full">
+              <span className="flex items-center gap-1">First Name</span>
+              <input
+                type="text"
+                placeholder="Enter First Name"
+                className="h-12 px-3 border z-10 w-full py-5 outline-none rounded"
+              />
+            </label>
+            <label className="flex flex-col gap-1 w-full">
+              <span className="flex items-center gap-1">Last Name</span>
+              <input
+                type="text"
+                placeholder="Enter Last Name"
+                className="h-12 px-3 border z-10 w-full py-5 outline-none rounded"
+              />
+            </label>
+          </div>
+          <label className="flex flex-col gap-1 w-full">
+            <span className="flex items-center gap-1">Email</span>
+            <input
+              type="email"
+              placeholder="Enter Email Address"
+              className="h-12 px-3 border z-10 w-full py-5 outline-none rounded"
+            />
+          </label>
+          <label className="flex flex-col gap-1 w-full">
+            <span className="flex items-center gap-1">Phone</span>
+            <input
+              type="tel"
+              placeholder="Enter Phone"
+              className="h-12 px-3 border z-10 w-full py-5 outline-none rounded"
+            />
+          </label>
+          <label className="flex flex-col gap-1 w-full">
+            <span className="flex items-center gap-1">Message</span>
+            <textarea
+              placeholder="Enter Message"
+              className="h-32 px-3 border z-10 w-full py-5 outline-none rounded"
+            />
+          </label>
+          <nav className="flex items-center  gap-5 w-full">
+            <button className="font-[600] bg-primary text-white h-14 w-fit rounded-md px-10">
+              SEND MESSAGE
+            </button>
+          </nav>
+        </form>
+    </section>
   );
 }

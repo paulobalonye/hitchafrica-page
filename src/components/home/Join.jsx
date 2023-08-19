@@ -10,7 +10,7 @@ export default function Join() {
       <h3 className="text-3xl md:text-[48px] font-[800] text-dark leading-normal">
         Join to get <br className="hidden md:block" /> exclusive contents.
       </h3>
-      <form className="md:w-1/3 flex flex-col gap-5 items-center justify-center text-dark">
+      <form className="w-full md:w-1/3 flex flex-col gap-5 items-center justify-center text-dark">
         <input
           type="email"
           placeholder="Your email address"
@@ -22,7 +22,7 @@ export default function Join() {
           Join Now
         </button>
       </form>
-      <div className='text-[#020202] flex justify-center gap-10 items-center text-xl'>
+      <div className='text-[#020202] flex flex-col md:flex-row items-center text-center justify-center gap-10 items-center text-xl'>
         <p className="flex items-center gap-2">
           <FaCheck className="text-primary" />
           Weekly reports

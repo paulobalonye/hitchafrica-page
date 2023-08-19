@@ -8,11 +8,11 @@ import { FaEnvelope, FaPhone } from "react-icons/fa";
 export default function Footer() {
   return (
     <footer className="flex flex-col bg-[#F8F8FC] relative gap-10 md:gap-20 z-0 pt-10 md:pt-20 px-5 md:px-20 font-[400] text-sm md:text-base">
-      <div className="flex flex-col text-center justify-center items-center gap-10 py-20">
-        <div className="flex flex-col gap-5 text-dark text-center">
-          <b className="text-[48px] font-[800] leading-normal">
+      <div className="flex flex-col text-center justify-center items-center gap-10 py-10 md:py-20">
+        <div className="flex flex-col gap-5 text-dark text-center text-lg">
+          <b className="text-[32px] md:text-[48px] font-[800] leading-normal">
             See the difference after
-            <br className="hidden md:block" />
+            <br className="hidden md:block" />{' '}
             you try Hitch!
           </b>
           <p>Start your trial today!</p>

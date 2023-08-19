@@ -8,10 +8,10 @@ import team6 from '@/assets/team/team6.jpg'
 
 export default function Team() {
   return (
-    <main className="py-10 md:py-20 px-5 md:px-20 flex flex-col gap-5 md:gap-14">
-      <div className="flex justify-evenly items-center">
+    <main className="py-10 md:py-20 px-5 md:px-20 flex flex-col gap-10 md:gap-14">
+      <div className="flex flex-col md:flex-row justify-evenly items-center">
         <nav className="flex flex-col gap-4 text-xl">
-          <b className="text-[36px] font-[800] text-dark leading-normal">
+          <b className="text-[32px] md:text-[36px] font-[800] text-dark leading-normal">
             The best for our <br className="hidden md:block" />
             beloved client.
           </b>
@@ -25,10 +25,10 @@ export default function Team() {
           <br className="hidden md:block" /> software development.
         </p>
       </div>
-      <div className="grid grid-cols-4">
-        <nav className="flex flex-col justify-center gap-4 text-xl px-10 col-span-2">
+      <div className="flex flex-col gap-5 md:grid grid-cols-4">
+        <nav className="flex flex-col justify-center gap-4 text-xl md:px-10 col-span-2">
           <b className="font-[800]">THE TEAM</b>
-          <b className="text-[36px] font-[800] text-dark leading-normal">
+          <b className="text-3xl md:text-[36px] font-[800] text-dark leading-normal">
             The best for our <br className="hidden md:block" />
             beloved client.
           </b>

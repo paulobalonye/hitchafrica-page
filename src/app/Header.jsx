@@ -1,5 +1,5 @@
 "use client";
-import logo from "@/assets/logo-h.svg";
+import logo from "@/assets/logo2.png";
 import { useState } from "react";
 import Image from "next/image";
 import ReactFlagsSelect from "react-flags-select";
@@ -17,7 +17,7 @@ export default function Header() {
         <nav
           className={`${
             open
-              ? " left-0 top-14  py-5  bg-primary text-white px-5 md:px-0"
+              ? " left-0 top-14  py-5  bg-white text-primary px-5 md:px-0"
               : " top-14 left-[-900%]"
           } absolute md:static  w-full z-[999999999] md:w-[unset] text-lg flex flex-col md:flex-row shadow-md md:shadow-none  gap-5 md:gap-10 items-center transition-all duration-1000 ease-in-out overflow-y-scroll snap`}
         >

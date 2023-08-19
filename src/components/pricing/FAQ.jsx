@@ -90,16 +90,16 @@ export default function FAQ() {
     <main>
       <section
         id="faq"
-        className="flex flex-col gap-10 px-5 md:px-20 py-10 md:py-16 relative"
+        className="flex flex-col items-center gap-10 md:gap-16 px-5 md:px-20 py-10 relative"
       >
-        <h3 className="text-xl md:text-[34px] font-[600] text-secondary">
+        <h3 className="text-2xl md:text-[48px] font-[800] text-dark">
           Frequently asked questions
         </h3>
         <div className="flex flex-col md:grid grid-cols-2 gap-5 md:gap-10">
           <div className="flex flex-col justify-evenly gap-5 md:gap-10">
             {List1.map((info, index) => (
               <nav
-                className={`px-5 py-4 rounded-lg flex flex-col leading-relaxed faq transition ease-in-out duration-1000 h-fit text-text ${
+                className={`px-5 py-5 bg-white rounded-lg flex flex-col leading-relaxed faq transition ease-in-out duration-1000 h-fit text-text ${
                   activeIndices1.has(index) ? "gap-3" : ""
                 }`}
                 key={index}
@@ -136,7 +136,7 @@ export default function FAQ() {
           <div className="flex flex-col justify-evenly gap-5 md:gap-10">
             {List2.map((info, index) => (
               <nav
-                className={`px-5 py-4 rounded-lg flex flex-col leading-relaxed faq transition ease-in-out duration-1000 h-fit text-text ${
+                className={`px-5 py-5 bg-white rounded-lg flex flex-col leading-relaxed faq transition ease-in-out duration-1000 h-fit text-text ${
                   activeIndices2.has(index) ? "gap-3" : ""
                 }`}
                 key={index}

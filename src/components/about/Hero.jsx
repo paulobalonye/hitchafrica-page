@@ -12,12 +12,12 @@ export default function Hero() {
   return (
     <div className="relative px-5 md:min-h-screen w-full flex flex-col gap-5 md:gap-10 items-center">
       <div className="w-full flex flex-col items-center text-center gap-4 md:gap-6 py-10 md:py-16">
-        <h4 className="text-3xl md:text-[64px] font-[800] leading-none text-dark">
+        <h4 className="text-[32px] md:text-[64px] font-[800] leading-none text-dark">
           About Us
         </h4>
-        <p className="md:text-lg font-[600]">This is the story about us.</p>
+        <p className="text-lg font-[600]">This is the story about us.</p>
       </div>
-      <div className="grid grid-cols-[1fr_2fr_1fr] gap-4">
+      <div className="flex flex-col md:grid grid-cols-[1fr_2fr_1fr] gap-4">
         <Image src={abt1} alt="" className="w-full h-full object-cover" />
         <div className="flex flex-col gap-4">
           <Image src={abt2} alt="" className="w-full h-full object-cover" />

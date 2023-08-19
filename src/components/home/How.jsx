@@ -17,7 +17,7 @@ export default function How() {
         </h3>
       </div>
       <div className="w-full flex flex-col-reverse md:grid grid-cols-3 gap-5 md:gap-10 items-center z-10">
-        <nav className="bg-[rgba(255,255,254,0.30)] border flex flex-col gap-5 px-10 py-5 md:py-10 justify-evenly items-start rounded-xl">
+        <nav className="bg-[rgba(255,255,254,0.30)] border flex flex-col gap-5 px-5 md:px-10 py-5 md:py-10 justify-evenly items-start rounded-xl">
           <div className="flex justify-start gap-2">
             <Image src={dp1} alt="" className="h-10 w-10 md:w-16 md:h-16" />{" "}
             <p className="flex flex-col gap-1">
@@ -33,7 +33,7 @@ export default function How() {
           </p>
           <b className="mt-10 text-[#7A7070]">May 02, 2023</b>
         </nav>
-        <nav className="bg-[rgba(255,255,254,0.30)] border flex flex-col gap-5 px-10 py-5 md:py-10 justify-evenly items-start rounded-xl">
+        <nav className="bg-[rgba(255,255,254,0.30)] border flex flex-col gap-5 px-5 md:px-10 py-5 md:py-10 justify-evenly items-start rounded-xl">
           <div className="flex justify-start gap-2">
             <Image src={dp2} alt="" className="h-10 w-10 md:w-16 md:h-16" />{" "}
             <p className="flex flex-col gap-1">
@@ -49,7 +49,7 @@ export default function How() {
           </p>
           <b className="mt-10 text-[#7A7070]">May 02, 2023</b>
         </nav>
-        <nav className="bg-[rgba(255,255,254,0.30)] border flex flex-col gap-5 px-10 py-5 md:py-10 justify-evenly items-start rounded-xl">
+        <nav className="bg-[rgba(255,255,254,0.30)] border flex flex-col gap-5 px-5 md:px-10 py-5 md:py-10 justify-evenly items-start rounded-xl">
           <div className="flex justify-start gap-2">
             <Image src={dp3} alt="" className="h-10 w-10 md:w-16 md:h-16" />{" "}
             <p className="flex flex-col gap-1">
@@ -65,7 +65,7 @@ export default function How() {
           </p>
           <b className="mt-10 text-[#7A7070]">May 02, 2023</b>
         </nav>
-        <nav className="bg-[rgba(255,255,254,0.30)] border flex flex-col gap-5 px-10 py-5 md:py-10 justify-evenly items-start rounded-xl">
+        <nav className="bg-[rgba(255,255,254,0.30)] border flex flex-col gap-5 px-5 md:px-10 py-5 md:py-10 justify-evenly items-start rounded-xl">
           <div className="flex justify-start gap-2">
             <Image src={dp2} alt="" className="h-10 w-10 md:w-16 md:h-16" />{" "}
             <p className="flex flex-col gap-1">
@@ -81,7 +81,7 @@ export default function How() {
           </p>
           <b className="mt-10 text-[#7A7070]">May 02, 2023</b>
         </nav>
-        <nav className="bg-[rgba(255,255,254,0.30)] border flex flex-col gap-5 px-10 py-5 md:py-10 justify-evenly items-start rounded-xl">
+        <nav className="bg-[rgba(255,255,254,0.30)] border flex flex-col gap-5 px-5 md:px-10 py-5 md:py-10 justify-evenly items-start rounded-xl">
           <div className="flex justify-start gap-2">
             <Image src={dp3} alt="" className="h-10 w-10 md:w-16 md:h-16" />{" "}
             <p className="flex flex-col gap-1">
@@ -97,7 +97,7 @@ export default function How() {
           </p>
           <b className="mt-10 text-[#7A7070]">May 02, 2023</b>
         </nav>
-        <nav className="bg-[rgba(255,255,254,0.30)] border flex flex-col gap-5 px-10 py-5 md:py-10 justify-evenly items-start rounded-xl">
+        <nav className="bg-[rgba(255,255,254,0.30)] border flex flex-col gap-5 px-5 md:px-10 py-5 md:py-10 justify-evenly items-start rounded-xl">
           <div className="flex justify-start gap-2">
             <Image src={dp1} alt="" className="h-10 w-10 md:w-16 md:h-16" />{" "}
             <p className="flex flex-col gap-1">
