@@ -2,7 +2,6 @@
 import logo from "@/assets/logo2.png";
 import { useState } from "react";
 import Image from "next/image";
-import ReactFlagsSelect from "react-flags-select";
 import Link from "next/link";
 import { FaBars, FaTimes } from "react-icons/fa";
 export default function Header() {
@@ -29,11 +28,11 @@ export default function Header() {
             Partner With Us
           </a>
           <Link
-            href="/pricing"
+            href="/product"
             onClick={() => setOpen(false)}
             className="py-4 md:py-0 border-b md:border-none w-full md:w-fit md:min-w-fit"
           >
-            Pricing
+            Products
           </Link>
           <a
             href="/about"
@@ -49,15 +48,27 @@ export default function Header() {
           >
             Contact Us
           </a>
-          <button className="md:hidden rounded-md px-6 h-12 bg-inherit border text-[#001E1D] w-full">
+          {/* <a
+            href="https://onelink.to/hurb2a"
+            target="_blank"
+            rel="noopener noreferrer"
+          > */}
+          <Link
+            href="https://onelink.to/hurb2a"
+            className="md:hidden rounded-md px-6 h-12 flex justify-center items-center bg-inherit border text-[#001E1D] w-full"
+          >
             Signup As a Driver Partner
-          </button>
+          </Link>
+          {/* </a> */}
         </nav>
       </div>
 
-      <button className="rounded-md hidden md:block px-6 h-12 bg-inherit border text-[#001E1D]">
+      <Link
+        href="https://onelink.to/hurb2a"
+        className="rounded-md hidden px-6 h-12 md:flex justify-center items-center bg-inherit border text-[#001E1D]"
+      >
         Signup As a Driver Partner
-      </button>
+      </Link>
       {open ? (
         <FaTimes
           className="block md:hidden transition-all duration-1000 ease-in-out text-[#343D48] text-xl"

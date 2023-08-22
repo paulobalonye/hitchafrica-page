@@ -3,7 +3,6 @@ import logo from "@/assets/logo-h.svg";
 import Image from "next/image";
 import playstore from "@/assets/playstore.svg";
 import appstore from "@/assets/appstore.svg";
-import fline from "@/assets/fline.svg";
 import { FaEnvelope, FaPhone } from "react-icons/fa";
 export default function Footer() {
   return (
@@ -12,8 +11,7 @@ export default function Footer() {
         <div className="flex flex-col gap-5 text-dark text-center text-lg">
           <b className="text-[32px] md:text-[48px] font-[800] leading-normal">
             See the difference after
-            <br className="hidden md:block" />{' '}
-            you try Hitch!
+            <br className="hidden md:block" /> you try Hitch!
           </b>
           <p>Start your trial today!</p>
         </div>
@@ -35,13 +33,17 @@ export default function Footer() {
             </p>
           </nav>
           <nav className="grid grid-cols-2 md:flex gap-4 items-center">
-            <Image src={playstore} alt="" />
-            <Image src={appstore} alt="" />
+            <Link href="https://onelink.to/hurb2a">
+              <Image src={playstore} alt="" />
+            </Link>
+            <Link href="https://onelink.to/hurb2a">
+              <Image src={appstore} alt="" />
+            </Link>
           </nav>
         </nav>
         <nav className="flex flex-col md:items-center">
           <div className="flex flex-col gap-5">
-            <h3 className="font-[600] md:font-[700] text-2xl">Services</h3>
+            <h3 className="font-[600] md:font-[700] text-2xl">Products</h3>
             <ul className="flex flex-col gap-3">
               <Link href="/">Rides</Link>
               <Link href="/">Food delivery</Link>
@@ -59,10 +61,8 @@ export default function Footer() {
             </h3>
             <ul className="flex flex-col gap-3">
               <Link href="/">Sign up as a driver</Link>
-              <Link href="/">Sign up as a courier</Link>
+              <Link href="/">Sign up as a restaurant/shop</Link>
               <Link href="/">Sign up as a service provider</Link>
-              <Link href="/">Fleets</Link>
-              <Link href="/">Franchise</Link>
             </ul>
           </div>
         </nav>
@@ -71,7 +71,6 @@ export default function Footer() {
             <h3 className="font-[600] md:font-[700] text-2xl">Company</h3>
             <ul className="flex flex-col gap-3">
               <Link href="/about">About Us</Link>
-              <Link href="/">Eco-friendly goal</Link>
               <Link href="/">Careers</Link>
               <Link href="/legal-compliance">Legal compliance</Link>
               <Link href="/terms-and-condition">Terms & Condition</Link>
