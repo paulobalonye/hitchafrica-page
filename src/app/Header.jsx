@@ -21,7 +21,7 @@ export default function Header() {
           } absolute md:static  w-full z-[999999999] md:w-[unset] text-lg flex flex-col md:flex-row shadow-md md:shadow-none  gap-5 md:gap-10 items-center transition-all duration-1000 ease-in-out overflow-y-scroll snap`}
         >
           <a
-            href="/"
+            href="/partner-with-us"
             onClick={() => setOpen(false)}
             className="py-4 md:py-0 border-b md:border-none w-full md:w-fit md:min-w-fit"
           >

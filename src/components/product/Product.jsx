@@ -20,12 +20,12 @@ export default function Product() {
         business to the next level
       </h3>
       <div className="w-full flex flex-col md:grid grid-cols-3 font-[500] gap-10 text-lg">
-        <nav className="flex flex-col gap-10 bg-white shadow-[0px_36px_64px_0px_rgba(39,26,26,0.20)] rounded-xl w-full">
+        <nav className="flex flex-col gap-4 bg-white shadow-[0px_36px_64px_0px_rgba(39,26,26,0.20)] rounded-xl w-full">
           {/* <p className="text-primary">BASIC</p> */}
           <Image src={icon1} alt="" className='h-[400px] rounded-t-xl'/>
           <div className="flex flex-col gap-5 px-5 md:px-10 py-10">
             <div className="flex flex-col gap-1">
-              <b className="text-dark text-[32px] font-[800]">Rides</b>
+              <b className="text-dark text-3xl font-[800]">Rides</b>
               {/* <span>Start free trial for 14 days</span> */}
             </div>
             <p>
@@ -38,12 +38,12 @@ export default function Product() {
           </div>
         </nav>
 
-        <nav className="flex flex-col gap-10 bg-white shadow-[0px_36px_64px_0px_rgba(39,26,26,0.20)] rounded-xl w-full">
+        <nav className="flex flex-col gap-4 bg-white shadow-[0px_36px_64px_0px_rgba(39,26,26,0.20)] rounded-xl w-full">
           {/* <p className="text-primary">STANDARD</p> */}
           <Image src={icon2} alt="" className='h-[400px] rounded-t-xl'/>
           <div className="flex flex-col gap-5 px-5 md:px-10 py-10">
             <div className="flex flex-col gap-1">
-              <b className="text-dark text-[32px] font-[800]">Food Delivery</b>
+              <b className="text-dark text-3xl font-[800]">Food Delivery</b>
               {/* <span>Billed Monthly</span> */}
             </div>
             <p>
@@ -55,12 +55,12 @@ export default function Product() {
             </button>
           </div>
         </nav>
-        <nav className="flex flex-col gap-10 bg-white shadow-[0px_36px_64px_0px_rgba(39,26,26,0.20)] rounded-xl w-full">
+        <nav className="flex flex-col gap-4 bg-white shadow-[0px_36px_64px_0px_rgba(39,26,26,0.20)] rounded-xl w-full">
           {/* <p className="text-primary">PRO</p> */}
           <Image src={icon3} alt="" className='h-[400px] rounded-t-xl'/>
           <div className="flex flex-col gap-5 px-5 md:px-10 py-10">
             <div className="flex flex-col gap-1">
-              <b className="text-dark text-[32px] font-[800]">Bike Booking</b>
+              <b className="text-dark text-3xl font-[800]">Bike Booking</b>
               {/* <span>Billed Monthly</span> */}
             </div>
             <p>
@@ -74,12 +74,12 @@ export default function Product() {
         </nav>
       </div>
       <div className="w-full flex flex-col md:grid grid-cols-3 font-[500] gap-10 text-lg">
-        <nav className="flex flex-col gap-10 bg-white shadow-[0px_36px_64px_0px_rgba(39,26,26,0.20)] rounded-xl w-full">
+        <nav className="flex flex-col gap-4 bg-white shadow-[0px_36px_64px_0px_rgba(39,26,26,0.20)] rounded-xl w-full">
           {/* <p className="text-primary">BASIC</p> */}
           <Image src={icon4} alt="" className='h-[400px] rounded-t-xl'/>
           <div className="flex flex-col gap-5 px-5 md:px-10 py-10">
             <div className="flex flex-col gap-1">
-              <b className="text-dark text-[32px] font-[800]">
+              <b className="text-dark text-3xl font-[800]">
                 Grocery Delivery
               </b>
               {/* <span>Start free trial for 14 days</span> */}
@@ -94,12 +94,12 @@ export default function Product() {
           </div>
         </nav>
 
-        <nav className="flex flex-col gap-10 bg-white shadow-[0px_36px_64px_0px_rgba(39,26,26,0.20)] rounded-xl w-full">
+        <nav className="flex flex-col gap-4 bg-white shadow-[0px_36px_64px_0px_rgba(39,26,26,0.20)] rounded-xl w-full">
           {/* <p className="text-primary">STANDARD</p> */}
           <Image src={icon5} alt="" className='h-[400px] rounded-t-xl'/>
           <div className="flex flex-col gap-5 px-5 md:px-10 py-10">
             <div className="flex flex-col gap-1">
-              <b className="text-dark text-[32px] font-[800]">
+              <b className="text-dark text-3xl font-[800]">
                 Courier Delivery
               </b>
               {/* <span>Billed Monthly</span> */}
@@ -113,12 +113,12 @@ export default function Product() {
             </button>
           </div>
         </nav>
-        <nav className="flex flex-col gap-10 bg-white shadow-[0px_36px_64px_0px_rgba(39,26,26,0.20)] rounded-xl w-full">
+        <nav className="flex flex-col gap-4 bg-white shadow-[0px_36px_64px_0px_rgba(39,26,26,0.20)] rounded-xl w-full">
           {/* <p className="text-primary">PRO</p> */}
           <Image src={icon6} alt="" className='h-[400px] rounded-t-xl'/>
           <div className="flex flex-col gap-5 px-5 md:px-10 py-10">
             <div className="flex flex-col gap-1">
-              <b className="text-dark text-[32px] font-[800]">Home Cleaning</b>
+              <b className="text-dark text-3xl font-[800]">Home Cleaning</b>
               {/* <span>Billed Monthly</span> */}
             </div>
             <p>
@@ -131,14 +131,14 @@ export default function Product() {
           </div>
         </nav>
       </div>
-      <div className="text-lg flex w-full flex-col justify-center items-center gap-10 text-center px-5">
+      {/* <div className="text-lg flex w-full flex-col justify-center items-center gap-10 text-center px-5">
         <p>Secured by payment service</p>
         <nav className="flex gap-10 items-center">
           <Image src={pay1} alt="" />
           <Image src={pay2} alt="" />
           <Image src={pay3} alt="" />
         </nav>
-      </div>
+      </div> */}
     </div>
   );
 }
