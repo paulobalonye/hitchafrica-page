@@ -22,7 +22,7 @@ export default function Product() {
       <div className="w-full flex flex-col md:grid grid-cols-3 font-[500] gap-10 text-lg">
         <nav className="flex flex-col gap-4 bg-white shadow-[0px_36px_64px_0px_rgba(39,26,26,0.20)] rounded-xl w-full">
           {/* <p className="text-primary">BASIC</p> */}
-          <Image src={icon1} alt="" className='h-[400px] rounded-t-xl'/>
+          <Image src={icon1} alt="" className='w-full md:h-[400px] rounded-t-xl'/>
           <div className="flex flex-col gap-5 px-5 md:px-10 py-10">
             <div className="flex flex-col gap-1">
               <b className="text-dark text-3xl font-[800]">Rides</b>
@@ -40,7 +40,7 @@ export default function Product() {
 
         <nav className="flex flex-col gap-4 bg-white shadow-[0px_36px_64px_0px_rgba(39,26,26,0.20)] rounded-xl w-full">
           {/* <p className="text-primary">STANDARD</p> */}
-          <Image src={icon2} alt="" className='h-[400px] rounded-t-xl'/>
+          <Image src={icon2} alt="" className='w-full md:h-[400px] rounded-t-xl'/>
           <div className="flex flex-col gap-5 px-5 md:px-10 py-10">
             <div className="flex flex-col gap-1">
               <b className="text-dark text-3xl font-[800]">Food Delivery</b>
@@ -57,7 +57,7 @@ export default function Product() {
         </nav>
         <nav className="flex flex-col gap-4 bg-white shadow-[0px_36px_64px_0px_rgba(39,26,26,0.20)] rounded-xl w-full">
           {/* <p className="text-primary">PRO</p> */}
-          <Image src={icon3} alt="" className='h-[400px] rounded-t-xl'/>
+          <Image src={icon3} alt="" className='w-full md:h-[400px] rounded-t-xl'/>
           <div className="flex flex-col gap-5 px-5 md:px-10 py-10">
             <div className="flex flex-col gap-1">
               <b className="text-dark text-3xl font-[800]">Bike Booking</b>
@@ -76,7 +76,7 @@ export default function Product() {
       <div className="w-full flex flex-col md:grid grid-cols-3 font-[500] gap-10 text-lg">
         <nav className="flex flex-col gap-4 bg-white shadow-[0px_36px_64px_0px_rgba(39,26,26,0.20)] rounded-xl w-full">
           {/* <p className="text-primary">BASIC</p> */}
-          <Image src={icon4} alt="" className='h-[400px] rounded-t-xl'/>
+          <Image src={icon4} alt="" className='w-full md:h-[400px] rounded-t-xl'/>
           <div className="flex flex-col gap-5 px-5 md:px-10 py-10">
             <div className="flex flex-col gap-1">
               <b className="text-dark text-3xl font-[800]">
@@ -96,7 +96,7 @@ export default function Product() {
 
         <nav className="flex flex-col gap-4 bg-white shadow-[0px_36px_64px_0px_rgba(39,26,26,0.20)] rounded-xl w-full">
           {/* <p className="text-primary">STANDARD</p> */}
-          <Image src={icon5} alt="" className='h-[400px] rounded-t-xl'/>
+          <Image src={icon5} alt="" className='w-full md:h-[400px] rounded-t-xl'/>
           <div className="flex flex-col gap-5 px-5 md:px-10 py-10">
             <div className="flex flex-col gap-1">
               <b className="text-dark text-3xl font-[800]">
@@ -115,7 +115,7 @@ export default function Product() {
         </nav>
         <nav className="flex flex-col gap-4 bg-white shadow-[0px_36px_64px_0px_rgba(39,26,26,0.20)] rounded-xl w-full">
           {/* <p className="text-primary">PRO</p> */}
-          <Image src={icon6} alt="" className='h-[400px] rounded-t-xl'/>
+          <Image src={icon6} alt="" className='w-full md:h-[400px] rounded-t-xl'/>
           <div className="flex flex-col gap-5 px-5 md:px-10 py-10">
             <div className="flex flex-col gap-1">
               <b className="text-dark text-3xl font-[800]">Home Cleaning</b>
