@@ -61,7 +61,7 @@ export default function Footer() {
             </h3>
             <ul className="flex flex-col gap-3">
               <Link href="/">Sign up as a driver</Link>
-              <Link href="/">Sign up as a restaurant/shop</Link>
+              <Link href="/">Sign up as a merchant</Link>
               <Link href="/">Sign up as a service provider</Link>
             </ul>
           </div>

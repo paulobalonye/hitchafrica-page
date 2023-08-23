@@ -40,7 +40,7 @@ export default function About() {
           </div>
           <div className="flex flex-col gap-8 bg-[#EBEBEB] p-10">
             <h3 className="text-[32px] font-[600] text-primary">
-              Sign Up As Restaurant/Shop
+              Sign Up As Merchant
             </h3>
             <p className="text-[22px]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
