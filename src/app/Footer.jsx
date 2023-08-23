@@ -13,11 +13,15 @@ export default function Footer() {
             See the difference after
             <br className="hidden md:block" /> you try Hitch!
           </b>
-          <p>Start your trial today!</p>
         </div>
-        <button className="h-14 w-fit px-5 bg-primary text-white rounded-md">
-          Start free trial
-        </button>
+        <nav className="grid grid-cols-2 md:flex gap-4 items-center">
+          <Link href="https://onelink.to/hurb2a">
+            <Image src={playstore} alt="" />
+          </Link>
+          <Link href="https://onelink.to/hurb2a">
+            <Image src={appstore} alt="" />
+          </Link>
+        </nav>
       </div>
       <div className="gap-5  grid grid-cols-2 md:grid-cols-4 text-dark">
         <nav className="flex flex-col gap-5 col-span-2 md:col-span-1">
@@ -45,12 +49,12 @@ export default function Footer() {
           <div className="flex flex-col gap-5">
             <h3 className="font-[600] md:font-[700] text-2xl">Products</h3>
             <ul className="flex flex-col gap-3">
-              <Link href="/">Rides</Link>
-              <Link href="/">Food delivery</Link>
-              <Link href="/">Bike booking</Link>
-              <Link href="/">Grocery delivery</Link>
-              <Link href="/">Courier delivery</Link>
-              <Link href="/">Home cleaning</Link>
+              <Link href="/product">Rides</Link>
+              <Link href="/product">Food delivery</Link>
+              <Link href="/product">Bike booking</Link>
+              <Link href="/product">Grocery delivery</Link>
+              <Link href="/product">Courier delivery</Link>
+              <Link href="/product">Home cleaning</Link>
             </ul>
           </div>
         </nav>

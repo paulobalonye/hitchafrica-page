@@ -28,8 +28,8 @@ export default function How() {
             </p>
           </div>
           <p className="">
-            I was impressed with the {`company's`} user-friendly interface and
-            seamless onboarding process.
+            Hitch Africa made my daily commute a breeze. Reliable rides and
+            friendly drivers, {`they've`} got it all!.
           </p>
           <b className="mt-10 text-[#7A7070]">May 02, 2023</b>
         </nav>
@@ -44,8 +44,8 @@ export default function How() {
             </p>
           </div>
           <p className="">
-            I was impressed with the {`company's`} user-friendly interface and
-            seamless onboarding process.
+            I needed a last-minute delivery, and Hitch Africa came through. Fast
+            and secure, {`I'm`} impressed!
           </p>
           <b className="mt-10 text-[#7A7070]">May 02, 2023</b>
         </nav>
@@ -60,8 +60,8 @@ export default function How() {
             </p>
           </div>
           <p className="">
-            I was impressed with the {`company's`} user-friendly interface and
-            seamless onboarding process.
+            Tutors from Hitch Africa helped boost my grades. Quality education
+            right at my doorstep.
           </p>
           <b className="mt-10 text-[#7A7070]">May 02, 2023</b>
         </nav>
@@ -76,8 +76,8 @@ export default function How() {
             </p>
           </div>
           <p className="">
-            I was impressed with the {`company's`} user-friendly interface and
-            seamless onboarding process.
+            From fixing wiring to plumbing, {`I've`} found the best pros on
+            Hitch Africa. Superb service!
           </p>
           <b className="mt-10 text-[#7A7070]">May 02, 2023</b>
         </nav>
@@ -92,8 +92,8 @@ export default function How() {
             </p>
           </div>
           <p className="">
-            I was impressed with the {`company's`} user-friendly interface and
-            seamless onboarding process.
+            Hitch Africa is my go-to for delicious food delivery. Quick, hot
+            meals whenever I crave.
           </p>
           <b className="mt-10 text-[#7A7070]">May 02, 2023</b>
         </nav>
@@ -108,8 +108,8 @@ export default function How() {
             </p>
           </div>
           <p className="">
-            I was impressed with the {`company's`} user-friendly interface and
-            seamless onboarding process.
+            Efficient, easy, and professional - Hitch {`Africa's`} services have
+            truly simplified my life.
           </p>
           <b className="mt-10 text-[#7A7070]">May 02, 2023</b>
         </nav>

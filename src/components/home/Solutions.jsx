@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import feature from "@/assets/feature.jpeg";
 import bar from "@/assets/chart.svg";
 import dash from "@/assets/dash.svg";
@@ -19,32 +20,33 @@ export default function Solutions() {
         <div className="w-full flex flex-col gap-5 md:gap-14">
           <p className="text-primary hidden md:block">OUR FEATURES</p>
           <h4 className="hidden md:block text-[#0B1621] text-xl md:text-[48px] font-[800] leading-normal">
-            Upgrade to pro to unlock all features.
+            Seamless Services for Your Every Need: Hitch, Deliver, Excel.
           </h4>
           <div className="flex flex-col md:grid grid-cols-2 gap-5">
             <nav className="flex gap-4 items-start">
               <Image src={bar} alt="" />
               <div className="flex flex-col gap-4">
-                <b className="text-xl font-[800]">Analytical</b>
+                <b className="text-xl font-[800]">Effortless Rides</b>
                 <p>
-                  Our analytical tools make it easy to track progress in
-                  real-time.
+                  Quick and Easy Booking, Experienced and Friendly Drivers,
+                  Real-time Ride Tracking
                 </p>
               </div>
             </nav>
             <nav className="flex gap-4 items-start">
               <Image src={dash} alt="" />
               <div className="flex flex-col gap-4">
-                <b className="text-xl font-[800]">Dashboard</b>
+                <b className="text-xl font-[800]">Swift Deliveries</b>
                 <p>
-                  Our dashboard is easy to understand and track your business.
+                  Express Package Delivery, Food Delivered Fresh and Fast,
+                  Secure and Tracked Shipments.
                 </p>
               </div>
             </nav>
           </div>
-          <button className="rounded-xl bg-primary px-8 h-14 text-white w-fit">
-            Get Started Now
-          </button>
+          <Link href='/product' className="rounded-xl bg-primary px-8 h-14 text-white w-fit flex justify-center items-center">
+            View Products
+          </Link>
         </div>
       </div>
     </main>

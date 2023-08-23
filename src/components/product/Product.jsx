@@ -8,6 +8,7 @@ import icon3 from "@/assets/icon-p/icon3.jpg";
 import icon4 from "@/assets/icon-p/icon4.jpg";
 import icon5 from "@/assets/icon-p/icon5.jpg";
 import icon6 from "@/assets/icon-p/icon6.jpg";
+import { FaAppStore, FaGooglePay } from "react-icons/fa";
 
 export default function Product() {
   return (
@@ -22,15 +23,20 @@ export default function Product() {
       <div className="w-full flex flex-col md:grid grid-cols-3 font-[500] gap-10 text-lg">
         <nav className="flex flex-col gap-4 bg-white shadow-[0px_36px_64px_0px_rgba(39,26,26,0.20)] rounded-xl w-full">
           {/* <p className="text-primary">BASIC</p> */}
-          <Image src={icon1} alt="" className='w-full md:h-[400px] rounded-t-xl'/>
+          <Image
+            src={icon1}
+            alt=""
+            className="w-full md:h-[400px] rounded-t-xl"
+          />
           <div className="flex flex-col gap-5 px-5 md:px-10 py-10">
             <div className="flex flex-col gap-1">
               <b className="text-dark text-3xl font-[800]">Rides</b>
               {/* <span>Start free trial for 14 days</span> */}
             </div>
             <p>
-              Unlimited task to your unlimited team members. The basic is the
-              best for early business.
+              Enjoy the ease of reaching your destination with our dependable
+              ride-hailing service. Our experienced drivers and real-time
+              tracking ensure a smooth journey wherever {`you're`} headed.
             </p>
             <button className="text-primary w-full border h-14 px-10 rounded-xl font-[500] bg-inherit outline-none flex justify-center items-center">
               Get Started Now
@@ -40,15 +46,20 @@ export default function Product() {
 
         <nav className="flex flex-col gap-4 bg-white shadow-[0px_36px_64px_0px_rgba(39,26,26,0.20)] rounded-xl w-full">
           {/* <p className="text-primary">STANDARD</p> */}
-          <Image src={icon2} alt="" className='w-full md:h-[400px] rounded-t-xl'/>
+          <Image
+            src={icon2}
+            alt=""
+            className="w-full md:h-[400px] rounded-t-xl"
+          />
           <div className="flex flex-col gap-5 px-5 md:px-10 py-10">
             <div className="flex flex-col gap-1">
               <b className="text-dark text-3xl font-[800]">Food Delivery</b>
               {/* <span>Billed Monthly</span> */}
             </div>
             <p>
-              The best package for your business with a lot of features
-              unlocked. Make your busines to the top.
+              Indulge in culinary delights without leaving your home. Experience
+              the joy of having your favorite meals brought to your doorstep,
+              hot and fresh.
             </p>
             <button className="text-white bg-primary w-full h-14 px-10 rounded-xl font-[500] bg-inherit outline-none flex justify-center items-center">
               Get Started Now
@@ -57,15 +68,20 @@ export default function Product() {
         </nav>
         <nav className="flex flex-col gap-4 bg-white shadow-[0px_36px_64px_0px_rgba(39,26,26,0.20)] rounded-xl w-full">
           {/* <p className="text-primary">PRO</p> */}
-          <Image src={icon3} alt="" className='w-full md:h-[400px] rounded-t-xl'/>
+          <Image
+            src={icon3}
+            alt=""
+            className="w-full md:h-[400px] rounded-t-xl"
+          />
           <div className="flex flex-col gap-5 px-5 md:px-10 py-10">
             <div className="flex flex-col gap-1">
               <b className="text-dark text-3xl font-[800]">Bike Booking</b>
               {/* <span>Billed Monthly</span> */}
             </div>
             <p>
-              Unlimited task to your unlimited team members and full support.
-              The best for professional business.
+              Embrace the freedom of two wheels on demand. With our bike booking
+              feature, explore the city on your terms, making every ride an
+              adventure.
             </p>
             <button className="text-primary w-full border h-14 px-10 rounded-xl font-[500] bg-inherit outline-none flex justify-center items-center">
               Get Started Now
@@ -76,37 +92,43 @@ export default function Product() {
       <div className="w-full flex flex-col md:grid grid-cols-3 font-[500] gap-10 text-lg">
         <nav className="flex flex-col gap-4 bg-white shadow-[0px_36px_64px_0px_rgba(39,26,26,0.20)] rounded-xl w-full">
           {/* <p className="text-primary">BASIC</p> */}
-          <Image src={icon4} alt="" className='w-full md:h-[400px] rounded-t-xl'/>
+          <Image
+            src={icon4}
+            alt=""
+            className="w-full md:h-[400px] rounded-t-xl"
+          />
           <div className="flex flex-col gap-5 px-5 md:px-10 py-10">
             <div className="flex flex-col gap-1">
-              <b className="text-dark text-3xl font-[800]">
-                Grocery Delivery
-              </b>
+              <b className="text-dark text-3xl font-[800]">Grocery Delivery</b>
               {/* <span>Start free trial for 14 days</span> */}
             </div>
             <p>
-              Unlimited task to your unlimited team members. The basic is the
-              best for early business.
+              Skip the lines and let us handle your grocery run. With our
+              efficient grocery delivery, you can shop online and receive your
+              essentials without leaving the comfort of your home.
             </p>
             <button className="text-primary w-full border h-14 px-10 rounded-xl font-[500] bg-inherit outline-none flex justify-center items-center">
-              Get Started Now
+              Download Now <FaGooglePay /> <FaAppStore />
             </button>
           </div>
         </nav>
 
         <nav className="flex flex-col gap-4 bg-white shadow-[0px_36px_64px_0px_rgba(39,26,26,0.20)] rounded-xl w-full">
           {/* <p className="text-primary">STANDARD</p> */}
-          <Image src={icon5} alt="" className='w-full md:h-[400px] rounded-t-xl'/>
+          <Image
+            src={icon5}
+            alt=""
+            className="w-full md:h-[400px] rounded-t-xl"
+          />
           <div className="flex flex-col gap-5 px-5 md:px-10 py-10">
             <div className="flex flex-col gap-1">
-              <b className="text-dark text-3xl font-[800]">
-                Courier Delivery
-              </b>
+              <b className="text-dark text-3xl font-[800]">Courier Delivery</b>
               {/* <span>Billed Monthly</span> */}
             </div>
             <p>
-              The best package for your business with a lot of features
-              unlocked. Make your busines to the top.
+              Your packages deserve a reliable companion. Trust our courier
+              delivery service to transport your items securely and promptly,
+              with real-time updates to keep you informed.
             </p>
             <button className="text-white bg-primary w-full h-14 px-10 rounded-xl font-[500] bg-inherit outline-none flex justify-center items-center">
               Get Started Now
@@ -115,15 +137,20 @@ export default function Product() {
         </nav>
         <nav className="flex flex-col gap-4 bg-white shadow-[0px_36px_64px_0px_rgba(39,26,26,0.20)] rounded-xl w-full">
           {/* <p className="text-primary">PRO</p> */}
-          <Image src={icon6} alt="" className='w-full md:h-[400px] rounded-t-xl'/>
+          <Image
+            src={icon6}
+            alt=""
+            className="w-full md:h-[400px] rounded-t-xl"
+          />
           <div className="flex flex-col gap-5 px-5 md:px-10 py-10">
             <div className="flex flex-col gap-1">
               <b className="text-dark text-3xl font-[800]">Home Cleaning</b>
               {/* <span>Billed Monthly</span> */}
             </div>
             <p>
-              Unlimited task to your unlimited team members and full support.
-              The best for professional business.
+              Step into a spotless haven after a busy day. Our home cleaning
+              services ensure every nook and cranny is refreshed, creating a
+              clean and welcoming space for you.
             </p>
             <button className="text-primary w-full border h-14 px-10 rounded-xl font-[500] bg-inherit outline-none flex justify-center items-center">
               Get Started Now
