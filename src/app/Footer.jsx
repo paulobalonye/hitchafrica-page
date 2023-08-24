@@ -3,7 +3,8 @@ import logo from "@/assets/logo-h.svg";
 import Image from "next/image";
 import playstore from "@/assets/playstore.svg";
 import appstore from "@/assets/appstore.svg";
-import { FaEnvelope, FaPhone } from "react-icons/fa";
+import { FaEnvelope, FaPhone, FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+
 export default function Footer() {
   return (
     <footer className="flex flex-col bg-[#F8F8FC] relative gap-10 md:gap-20 z-0 pt-10 md:pt-20 px-5 md:px-20 font-[400] text-sm md:text-base">
@@ -83,8 +84,22 @@ export default function Footer() {
           </div>
         </nav>
       </div>
-      <div className="text-xs md:text-base py-4 md:py-8 flex flex-col gap-1 justify-center items-center text-center border-[#9EA9A8] border-t">
+      <div className="text-xs md:text-base py-4 md:py-8 flex flex-col md:flex-row gap-1 justify-center md:justify-between items-center text-center border-[#9EA9A8] border-t">
         <span> © Hitch Africa Copyright Reserved 2023 </span>
+        <nav className="flex gap-5 items-center text-xl text-dark">
+            <a href="" target="_blank" rel="noopener noreferrer">
+              <FaFacebook className="" />
+            </a>
+            <a href="" target="_blank" rel="noopener noreferrer">
+              <FaTwitter className="" />
+            </a>
+            <a href="" target="_blank" rel="noopener noreferrer">
+              <FaInstagram className="" />
+            </a>
+            <a href="" target="_blank" rel="noopener noreferrer">
+              <FaLinkedin className="" />
+            </a>
+          </nav>
       </div>
     </footer>
   );
