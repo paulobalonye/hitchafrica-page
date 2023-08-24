@@ -40,7 +40,7 @@ export default function About() {
             <p className="text-[22px]">
             Elevate your business by becoming a valued merchant on the Hitch Africa platform. Showcase your restaurant, shop, or establishment to a wider audience through our user-friendly registration process. Tell us about your offerings, share captivating images, and provide the essential information that potential customers need to know. By partnering with Hitch Africa, you open the door to increased visibility, customer engagement, and the opportunity to grow your sales with a seamless online presence.</p>
             <Link
-              href="https://onelink.to/9f7vr6"
+              href="/partner-with-us"
               className="rounded-md hidden px-6 h-12 md:flex justify-center items-center bg-inherit border border-primary text-primary w-fit"
             >
               Start now
