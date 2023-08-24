@@ -17,7 +17,7 @@ export default function About() {
               Sign Up As Driver
             </h3>
             <p className="text-[22px]">
-            Embark on a new journey by joining Hitch Africa as a driver. Whether {`you're`} looking for a flexible side gig or a full-time opportunity, our platform makes it easy to get started. Simply provide us with your information, upload the necessary documents like your driver's license and insurance, and follow our straightforward onboarding process. As a driver, you'll have the chance to earn on your own terms, while enjoying the benefits of a supportive community and advanced tools to enhance your experience.</p>
+            Embark on a new journey by joining Hitch Africa as a driver. Whether {`you're`} looking for a flexible side gig or a full-time opportunity, our platform makes it easy to get started. Simply provide us with your information, upload the necessary documents like your {`driver's`} license and insurance, and follow our straightforward onboarding process. As a driver, you'll have the chance to earn on your own terms, while enjoying the benefits of a supportive community and advanced tools to enhance your experience.</p>
             <Link
               href="https://onelink.to/hurb2a"
               className="rounded-md hidden px-6 h-12 md:flex justify-center items-center bg-inherit border border-primary text-primary w-fit"
