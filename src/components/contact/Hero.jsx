@@ -28,8 +28,8 @@ export default function Hero() {
               <FaPhoneAlt /> PHONE
             </b>
             <div>
-              <p>+234</p>
-              <p>+1 234 234 56 78</p>
+              <p>+234-7075-555-4168</p>
+              <p>+1-440-771-3030</p>
             </div>
           </nav>
           <nav className="flex flex-col gap-4">
@@ -37,8 +37,8 @@ export default function Hero() {
               <FaMapMarker /> ADDRESS
             </b>
             <div>
-              <p>2590 N First St 2540, San Jose</p>
-              <p>CA 95131, United State</p>
+              <p>Ikeja Lagos</p>
+              {/* <p>CA 95131, United State</p> */}
             </div>
           </nav>
         </div>
