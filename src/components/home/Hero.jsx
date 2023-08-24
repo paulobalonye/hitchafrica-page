@@ -32,10 +32,10 @@ export default function Hero() {
           leading on-demand platform
         </h3>
         <nav className="grid grid-cols-2 md:flex gap-4 items-center">
-          <Link href="https://onelink.to/hurb2a">
+          <Link href="https://onelink.to/9f7vr6">
             <Image src={playstore} alt="" />
           </Link>
-          <Link href="https://onelink.to/hurb2a">
+          <Link href="https://onelink.to/9f7vr6">
             <Image src={appstore} alt="" />
           </Link>
         </nav>

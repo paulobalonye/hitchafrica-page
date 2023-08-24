@@ -14,14 +14,14 @@ export default function Footer() {
             <br className="hidden md:block" /> you try Hitch!
           </b>
         </div>
-        <nav className="grid grid-cols-2 md:flex gap-4 items-center">
-          <Link href="https://onelink.to/hurb2a">
+        {/* <nav className="grid grid-cols-2 md:flex gap-4 items-center">
+          <Link href="https://onelink.to/9f7vr6">
             <Image src={playstore} alt="" />
           </Link>
-          <Link href="https://onelink.to/hurb2a">
+          <Link href="https://onelink.to/9f7vr6">
             <Image src={appstore} alt="" />
           </Link>
-        </nav>
+        </nav> */}
       </div>
       <div className="gap-5  grid grid-cols-2 md:grid-cols-4 text-dark">
         <nav className="flex flex-col gap-5 col-span-2 md:col-span-1">
@@ -37,10 +37,10 @@ export default function Footer() {
             </p>
           </nav>
           <nav className="grid grid-cols-2 md:flex gap-4 items-center">
-            <Link href="https://onelink.to/hurb2a">
+            <Link href="https://onelink.to/9f7vr6">
               <Image src={playstore} alt="" />
             </Link>
-            <Link href="https://onelink.to/hurb2a">
+            <Link href="https://onelink.to/9f7vr6">
               <Image src={appstore} alt="" />
             </Link>
           </nav>
@@ -64,9 +64,9 @@ export default function Footer() {
               Partner with Hitch
             </h3>
             <ul className="flex flex-col gap-3">
-              <Link href="/">Sign up as a driver</Link>
-              <Link href="/">Sign up as a merchant</Link>
-              <Link href="/">Sign up as a service provider</Link>
+              <Link href="/partner-with-us">Sign up as a driver</Link>
+              <Link href="/partner-with-us">Sign up as a merchant</Link>
+              <Link href="/partner-with-us">Sign up as a service provider</Link>
             </ul>
           </div>
         </nav>

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from 'next/link'
 import feature from "@/assets/contact.jpeg";
 import wave from '@/assets/wave-abt.svg'
 export default function Contact() {
@@ -23,9 +24,9 @@ export default function Contact() {
           <p className="text-xl">
             Ask about products, pricing, implementation or anything else.
           </p>
-          <button className="rounded-xl bg-primary px-8 h-14 text-white w-full">
+          <Link href='/contact' className="rounded-xl bg-primary px-8 h-14 text-white w-full flex justify-center items-center">
             Contact Us
-          </button>
+          </Link>
         </div>
       </div>
     </main>

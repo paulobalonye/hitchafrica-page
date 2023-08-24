@@ -17,7 +17,7 @@ export default function Hero() {
         </h4>
         <p className="text-lg font-[600]">This is the story about us.</p>
       </div>
-      <div className="w-full flex flex-col md:grid grid-cols-[1fr_2fr_1fr] gap-4">
+      {/* <div className="w-full flex flex-col md:grid grid-cols-[1fr_2fr_1fr] gap-4">
         <Image src={abt1} alt="" className="w-full h-full object-cover" />
         <div className="flex flex-col gap-4">
           <Image src={abt2} alt="" className="w-full h-full object-cover" />
@@ -27,7 +27,7 @@ export default function Hero() {
           </div>
         </div>
         <Image src={abt5} alt="" className="w-full h-full object-cover" />
-      </div>
+      </div> */}
     </div>
   );
 }
