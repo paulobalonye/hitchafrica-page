@@ -20,7 +20,6 @@ export default function Hero() {
               <FaEnvelope /> EMAIL
             </b>
             <div>
-              <p>info@hitchafrica.com</p>
               <p>support@hitchafrica.com</p>
             </div>
           </nav>
@@ -29,7 +28,7 @@ export default function Hero() {
               <FaPhoneAlt /> PHONE
             </b>
             <div>
-              <p>+1 234 234 56 78</p>
+              <p>+234</p>
               <p>+1 234 234 56 78</p>
             </div>
           </nav>
