@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
         {children}
         <Footer />
         <Link
-          href="https://api.whatsapp.com/send?phone=234705554168"
+          href="https://api.whatsapp.com/send?phone=23407055554168"
           target="_blank"
         >
           <Image
