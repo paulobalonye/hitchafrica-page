@@ -14,7 +14,7 @@ const mont = Montserrat({
   subsets: ["latin"],
 });
 export const metadata = {
-  title: "Hitch",
+  title: "Hitch Africa",
   description: "Your Marketplace for Convenience and Comfort!",
 };
 
@@ -26,13 +26,13 @@ export default function RootLayout({ children }) {
         {children}
         <Footer />
         <Link
-          href="https://api.whatsapp.com/send?phone=23409168819354"
+          href="https://api.whatsapp.com/send?phone=234705554168"
           target="_blank"
         >
           <Image
             src={whatsapp}
             alt=""
-            className="fixed bottom-5 h-14 w-14 md:h-20 md:w-20 right-5 md:right-20 z-[9999]"
+            className="fixed bottom-5 md:bottom-20 h-14 w-14 md:h-20 md:w-20 right-5 md:right-20 z-[9999]"
           />
         </Link>
         <Script src="./script.js" />

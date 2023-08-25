@@ -8,7 +8,7 @@ export default function News() {
     <main className="px-5 md:px-20 py-10 md:py-20 flex flex-col md:grid grid-cols-[1fr_2fr] gap-10">
       <div className="flex flex-col gap-10">
         <h3 className="font-[800] text-[28px] md:text-[48px] text-dark">
-          Our Latest News and Articles
+          Hitch Africa News and Media
         </h3>
         <p className="text-lg">
           To succeed in the modern world, companies must embrace the latest tech

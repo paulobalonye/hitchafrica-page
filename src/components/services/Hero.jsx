@@ -17,10 +17,10 @@ export default function Hero() {
       />
       <div className="w-full flex flex-col gap-4 md:gap-8 md:py-20">
         <h4 className="text-3xl md:text-[56px] font-[700] leading-normal">
-          Discover Seamless Convenience and Quality Service with Hitch
+          Discover Seamless Convenience and Quality Service with Hitch Africa
         </h4>
         <p className="md:text-2xl">
-          With Hitch, you can now access a comprehensive range of services at
+          With Hitch Africa, you can now access a comprehensive range of services at
           your fingertips, ensuring efficiency, comfort, and unmatched
           convenience. {`Let's`} simplify your life together!
         </p>

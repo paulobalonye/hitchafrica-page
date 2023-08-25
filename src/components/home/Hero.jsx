@@ -1,5 +1,5 @@
 import Image from "next/image";
-import hero from "@/assets/hero.jpeg";
+import hero from "@/assets/hero.jpg";
 import { FaPlay } from "react-icons/fa";
 import bg1 from "@/assets/hero/hero1.svg";
 import bg2 from "@/assets/hero/hero2.svg";
@@ -48,20 +48,20 @@ export default function Hero() {
           </span>
         </p>
       </div>
-      <Image src={hero} alt="" />
+      <Image src={hero} alt="" className='w-2/3 object-contain' />
       <div className="flex flex-col md:grid grid-cols-4 gap-10 py-10 text-[#434A54] px-5 md:px-20 ">
         <nav className="flex flex-col gap-3 font-[800] text-[32px] md:text-[36px] text-[#0B1621]">
           Hitch Africa | Lifestyle App
         </nav>
         <nav className="flex flex-col gap-3 text-lg md:text-xl">
           <b className="text-[32px] md:text-[36px] text-[#0B1621] font-[700]">
-            1M+ Happy Riders
+            Happy Riders
           </b>
           <p>Join our ever-growing rider community.</p>
         </nav>
         <nav className="flex flex-col gap-3 text-lg md:text-xl">
           <b className="text-[32px] md:text-[36px] text-[#0B1621] font-[700]">
-            5K+ Deliveries
+            Fast Food Deliveries
           </b>
           <p>Timely, reliable package and food delivery.</p>
         </nav>

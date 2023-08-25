@@ -12,19 +12,19 @@ export default function Diff() {
       <div className="w-full my-10 px-5 md:px-24 py-10 md:py-20 flex flex-col md:grid grid-cols-2 gap-5 md:gap-10 text-center md:text-start items-center z-10 bg-[#C0D1D2] rounded-tl-[70px] rounded-br-[70px] md:rounded-tl-[100px] md:rounded-br-[100px]">
         <div className="w-full flex flex-col items-center md:items-start gap-4 md:pl-10">
           <h4 className="text-primary text-xl md:text-[40px] font-[700] leading-normal">
-            Unmatched Convenience and Exceptional Quality - The Hitch Difference
+            Unmatched Convenience and Exceptional Quality - The Hitch Africa Difference
           </h4>
           <p className="text-sm md:text-xl text-[#343D48]">
-            What makes Hitch truly stand out is our unwavering dedication to
+            What makes Hitch Africa truly stand out is our unwavering dedication to
             providing unmatched convenience and exceptional quality in
             everything we do. Unlike other services, we bring a diverse range of
             offerings under one intuitive platform, eliminating the need to
             juggle multiple apps or websites. Our commitment to excellence
             drives us to deliver top-notch services tailored to your
             preferences. Whether {`you're`} a busy professional, a student on
-            the go, or a family looking for convenience, Hitch is here to
+            the go, or a family looking for convenience, Hitch Africa is here to
             enhance your daily experiences. Embrace the ease of one app, one
-            platform, and countless possibilities—choose Hitch today!
+            platform, and countless possibilities—choose Hitch Africa today!
           </p>
           <button className="rounded-md px-10 h-12 bg-[#CB1F52] text-white w-fit md:block hidden">
             Sign Up Now!

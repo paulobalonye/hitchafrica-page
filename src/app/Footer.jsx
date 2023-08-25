@@ -12,7 +12,7 @@ export default function Footer() {
         <div className="flex flex-col gap-5 text-dark text-center text-lg">
           <b className="text-[32px] md:text-[48px] font-[800] leading-normal">
             See the difference after
-            <br className="hidden md:block" /> you try Hitch!
+            <br className="hidden md:block" /> you try Hitch Africa!
           </b>
         </div>
         {/* <nav className="grid grid-cols-2 md:flex gap-4 items-center">
