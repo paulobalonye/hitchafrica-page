@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import feature from "@/assets/feature.jpeg";
+import feature from "@/assets/assprovider.jpg";
 import bar from "@/assets/chart.svg";
 import dash from "@/assets/dash.svg";
 

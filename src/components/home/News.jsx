@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { FaArrowRight } from "react-icons/fa";
-import news1 from "@/assets/news/news1.jpg";
-import news2 from "@/assets/news/news2.jpg";
+import news1 from "@/assets/urban.jpg";
+import news2 from "@/assets/bts.jpg";
 
 export default function News() {
   return (
@@ -14,13 +14,13 @@ export default function News() {
           To succeed in the modern world, companies must embrace the latest tech
           innovations.
         </p>
-        <button className="hidden md:flex gap-2 items-center text-primary mt-auto">
+        {/* <button className="hidden md:flex gap-2 items-center text-primary mt-auto">
           See all articles <FaArrowRight />
-        </button>
+        </button> */}
       </div>
       <div className="flex flex-col md:grid grid-cols-2 gap-10 md:gap-5">
         <nav className="flex flex-col gap-5">
-          <Image src={news1} alt="" className="w-full" />
+          <Image src={news1} alt="" className="w-full md:h-[400px] object-cover" />
           <span className="text-primary bg-[#E8F7F2] rounded-full px-3 py-2 w-fit">
             Transport
           </span>
@@ -35,7 +35,7 @@ export default function News() {
           </p>
         </nav>
         <nav className="flex flex-col gap-5">
-          <Image src={news2} alt="" className="w-full" />
+          <Image src={news2} alt="" className="w-full md:h-[400px] object-cover" />
           <span className="text-primary bg-[#E8F7F2] rounded-full px-3 py-2 w-fit">
             Delivery
           </span>

@@ -22,7 +22,7 @@ export default function Join() {
           Join Now
         </button>
       </form>
-      <div className="text-[#020202] flex flex-col md:flex-row items-center text-center justify-center gap-10 text-xl">
+      {/* <div className="text-[#020202] flex flex-col md:flex-row items-center text-center justify-center gap-10 text-xl">
         <p className="flex items-center gap-2">
           <FaCheck className="text-primary" />
           Weekly reports
@@ -35,7 +35,7 @@ export default function Join() {
           <FaCheck className="text-primary" />
           Premium contents
         </p>
-      </div>
+      </div> */}
     </section>
   );
 }

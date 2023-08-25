@@ -3,7 +3,14 @@ import logo from "@/assets/logo-h.svg";
 import Image from "next/image";
 import playstore from "@/assets/playstore.svg";
 import appstore from "@/assets/appstore.svg";
-import { FaEnvelope, FaPhone, FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import {
+  FaEnvelope,
+  FaPhone,
+  FaFacebook,
+  FaInstagram,
+  FaLinkedin,
+  FaTwitter,
+} from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -30,7 +37,7 @@ export default function Footer() {
           <nav className="flex flex-col gap-3 text-xl">
             <p className="flex gap-4 items-center">
               <FaPhone />
-              +1 234 56 78
+              +234-7075-555-4168 <br /> +1-440-771-3030
             </p>
             <p className="flex gap-4 items-center">
               <FaEnvelope />
@@ -87,19 +94,19 @@ export default function Footer() {
       <div className="text-xs md:text-base py-4 md:py-8 flex flex-col md:flex-row gap-1 justify-center md:justify-between items-center text-center border-[#9EA9A8] border-t">
         <span> © Hitch Africa Copyright Reserved 2023 </span>
         <nav className="flex gap-5 items-center text-xl text-dark">
-            <a href="" target="_blank" rel="noopener noreferrer">
-              <FaFacebook className="" />
-            </a>
-            <a href="" target="_blank" rel="noopener noreferrer">
-              <FaTwitter className="" />
-            </a>
-            <a href="" target="_blank" rel="noopener noreferrer">
-              <FaInstagram className="" />
-            </a>
-            <a href="" target="_blank" rel="noopener noreferrer">
-              <FaLinkedin className="" />
-            </a>
-          </nav>
+          <a href="" target="_blank" rel="noopener noreferrer">
+            <FaFacebook className="" />
+          </a>
+          <a href="" target="_blank" rel="noopener noreferrer">
+            <FaTwitter className="" />
+          </a>
+          <a href="" target="_blank" rel="noopener noreferrer">
+            <FaInstagram className="" />
+          </a>
+          <a href="" target="_blank" rel="noopener noreferrer">
+            <FaLinkedin className="" />
+          </a>
+        </nav>
       </div>
     </footer>
   );

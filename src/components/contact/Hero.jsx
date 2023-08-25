@@ -20,7 +20,7 @@ export default function Hero() {
               <FaEnvelope /> EMAIL
             </b>
             <div>
-              <p>support@hitchafrica.com</p>
+              <p>info@hitchafrica.com</p>
             </div>
           </nav>
           <nav className="flex flex-col gap-4">
