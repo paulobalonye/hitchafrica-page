@@ -22,7 +22,7 @@ export default function Form() {
           <a href="https://instagram.com/hitchafrica" target="_blank" rel="noopener noreferrer">
             <FaInstagram className="" />
           </a>
-          <a href="https://linkedin.com/in/hitchafrica" target="_blank" rel="noopener noreferrer">
+          <a href="" target="_blank" rel="noopener noreferrer">
             <FaLinkedin className="" />
           </a>
           </nav>

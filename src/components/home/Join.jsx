@@ -8,7 +8,7 @@ export default function Join() {
     >
       <p className="text-primary">NEWSLETTER</p>
       <h3 className="text-3xl md:text-[48px] font-[800] text-dark leading-normal">
-        Join to get <br className="hidden md:block" /> exclusive contents.
+        Join to get updated <br className="hidden md:block" /> on everything Hitch Africa.
       </h3>
       <form className="w-full md:w-1/3 flex flex-col gap-5 items-center justify-center text-dark">
         <input
