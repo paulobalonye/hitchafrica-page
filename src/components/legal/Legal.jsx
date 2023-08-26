@@ -16,53 +16,97 @@ export default function Legal() {
       return newIndices;
     });
   };
+
   const List = [
     {
       question: "INTRODUCTION",
       answer:
-        'The following terms and conditions govern all use of the www.zeetomic.com website and all content, services and products available at or through the website (taken together, the Website). The Website is owned and operated by Hitch Africa Technologies Ltd. ("Zeetomic"). The Website is offered subject to your acceptance without modification of all of the terms and conditions contained herein and all other operating rules, policies (including, without limitation, Zeetomic\'s Privacy Policy) and procedures that may be published from time to time on this Site by Zeetomic (collectively, the "Agreement").',
+        "Welcome to Hitch Africa, a platform that connects riders and drivers to provide convenient and reliable transportation services. This document outlines the legal and compliance aspects of using the Hitch Africa platform. By accessing or using our services, you agree to adhere to the terms and conditions outlined below.",
     },
     {
       question: "DATA PROTECTION AND COMPLIANCE",
       answer:
-        " is committed to protecting the privacy of its users. We have prepared a Privacy Policy to describe to you our practices regarding the personal information we collect from users of our website. You can find our Privacy Policy at https://zeetomic.com/privacy-policy/.",
+        "At Hitch Africa, we are committed to safeguarding your personal data and maintaining compliance with relevant data protection laws. We collect, process, and store your information only for the purpose of providing our services. Our Privacy Policy outlines the types of data we collect, how we use it, and your rights in relation to your data.",
     },
     {
-      question: 'TERMS OF USE',
+      question: "TERMS OF USE",
       answer:
-        "By accessing or using the Website, you are agreeing to these Terms and entering into a legally binding contract with Hitch Africa Technologies Ltd. Do not access or use the Website if you are unwilling or unable to be bound by the Terms.",
+        (
+          <div>
+            <p> 
+              <b>1. Eligibility:</b> Users must meet eligibility criteria to use our platform, including legal age and possession of a valid driver's license.
+            </p>
+            <p>
+              <b>2. Account Creation:</b> Users are responsible for maintaining accurate account information and must not share account credentials.
+            </p>
+            <p>
+              <b>3. Service Usage:</b> Users agree to use the platform for lawful purposes and to comply with local laws and regulations.
+            </p>
+            <p>
+            <b>4. Payment:</b> Payment terms and methods are outlined in our Payment Policy. Users are responsible for any applicable fees or charges.
+            </p>
+            <p>
+            <b>5. User Conduct:</b> Users must adhere to our code of conduct, respecting others and refraining from harmful or disruptive behavior.
+            </p>
+            <p>
+            <b>6. Modification and Termination:</b> Hitch Africa reserves the right to modify or terminate services, accounts, or these terms at its discretion.
+            </p>
+          </div>
+        )
     },
     {
       question: "INTELLECTUAL PROPERTY",
       answer:
-        "The Website and its original content, features and functionality are owned by Hitch Africa Technologies Ltd. and are protected by international copyright.",
+        "All content and materials on the Hitch Africa platform, including logos, trademarks, and software, are the property of Hitch Africa or its licensors. Users are prohibited from using, copying, or distributing these materials without explicit permission.",
     },
     {
       question: "PROHIBITED ACTIVITIES",
       answer:
-        "You may not access or use the Website for any purpose other than that for which we make the Website available. The Website may not be used in connection with any commercial endeavors except those that are specifically endorsed or approved by us.",
+       (<div>
+        <p>Users are strictly prohibited from:</p>
+        <p>1. Engaging in fraudulent, illegal, or harmful activities on the platform.</p>
+        <p>2. Misrepresenting identity, information, or intent.</p>
+        <p>3. Violating the privacy or rights of other users or third parties.</p>
+<p>4. Interfering with the platform's functionality, security, or integrity.</p>
+<p>5. Engaging in any activity that violates these terms or applicable laws.</p>
+
+       </div>)
     },
     {
       question: "LIABILITY AND DISCLAIMERS",
       answer:
-        "The Website is provided on an 'as is' basis. To the fullest extent permitted by law, Hitch Africa Technologies Ltd. makes no representations or warranties of any kind, express or implied, regarding the use or the results of this Website in terms of its correctness, accuracy, reliability, or otherwise. Hitch Africa Technologies Ltd. shall have no liability for any interruptions in the use of this Website. Hitch Africa Technologies Ltd. disclaims all warranties with regard to the information provided, including the implied warranties of merchantability and fitness for a particular purpose, and non-infringement.",
+        (
+          <div>
+            <p>1. Use at Your Own Risk: Users use the Hitch Africa platform at their own risk. Hitch Africa does not guarantee the accuracy, reliability, or availability of services.
+</p>
+            <p>2. Limitation of Liability: Hitch Africa is not liable for any indirect, incidental, consequential, or punitive damages arising from platform use.
+</p>
+            <p>3. Third-Party Services: Hitch Africa may integrate third-party services; users acknowledge that these services are subject to their own terms and policies.
+</p>
+          </div>
+        )
     },
     {
       question: "CONTACT INFORMATION",
       answer:
-        "If you have any questions about these Terms, please contact us at "
-    }
+        (
+          <div>
+            <p>For any inquiries, concerns, or legal notices related to these terms, please contact us at:</p>
+            <p>- Email: legal@hitchafrica.com</p>
+            <p>- Address: Ikeja Lagos</p>
+            <p>- Phone: +234-7075-555-4168 +1-440-771-3030</p>
+          </div>
+        )
+    },
   ];
   return (
     <main className="flex flex-col items-center">
-      <div
-        className="w-full flex flex-col relative z-0 bg-cover bg-[top right] bg-no-repeat"
-      >
+      <div className="w-full flex flex-col relative z-0 bg-cover bg-[top right] bg-no-repeat">
         <div className="w-full md:w-1/2 py-20 mx-auto px-5 flex flex-col gap-5 md:gap-10 justify-center items-center">
           <b className="text-3xl md:text-[40px] font-[700] leading-none text-center text-primary">
             Legal and Compliance{" "}
           </b>
-          <p>as of 08 August 2020</p>
+          <p>Last updated: August 25, 2023</p>
           <div className="flex flex-col justify-evenly w-full gap-5">
             {List.map((info, index) => (
               <nav
@@ -102,10 +146,14 @@ export default function Legal() {
               </nav>
             ))}
           </div>
+          <p>By using Hitch Africa's services, you agree to abide by these legal and compliance terms. It's important to review these terms periodically, as they may be updated to reflect changes in laws or the platform's operation.
+</p>
         </div>
       </div>
       <div className="w-full flex flex-col md:flex-row gap-10 justify-evenly items-center py-10 md:py-28 bg-primary">
-        <b className="text-3xl md:text-[40px] font-[700] text-white">Customer Support</b>
+        <b className="text-3xl md:text-[40px] font-[700] text-white">
+          Customer Support
+        </b>
         <button className="px-14 py-4 text-lg bg-white text-primary rounded-lg font-[600]">
           Contact Us
         </button>

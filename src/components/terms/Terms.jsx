@@ -158,10 +158,10 @@ export default function Terms() {
               <div className="flex flex-col gap-5 md:text-lg">
                 <p>
                   Welcome to the Terms and Conditions page for the Hitch Mobile
-                  App, provided to you by Hitch Africa Technologies Ltd, a leading
-                  provider of innovative multi-service solutions. These Terms
-                  govern your access to and use of the Hitch Mobile App and all
-                  its related services, collectively referred to as{" "}
+                  App, provided to you by Hitch Africa Technologies Ltd, a
+                  leading provider of innovative multi-service solutions. These
+                  Terms govern your access to and use of the Hitch Mobile App
+                  and all its related services, collectively referred to as{" "}
                   {`"our services."`} By accessing, registering, or using the
                   Hitch Mobile App, you agree to be legally bound by these
                   Terms. If you do not accept these Terms in their entirety, you
@@ -177,26 +177,26 @@ export default function Terms() {
                   and reliability, allowing you to focus on what truly matters.
                 </p>
                 <p>
-                  At Hitch Africa Technologies Ltd, we take great pride in curating a
-                  unique and personalized user experience. Our commitment to
-                  excellence and user satisfaction is the cornerstone of our
-                  success. As you embark on your journey with Hitch, we assure
-                  you that your safety, security, and enjoyment are at the heart
-                  of everything we do.
+                  At Hitch Africa Technologies Ltd, we take great pride in
+                  curating a unique and personalized user experience. Our
+                  commitment to excellence and user satisfaction is the
+                  cornerstone of our success. As you embark on your journey with
+                  Hitch, we assure you that your safety, security, and enjoyment
+                  are at the heart of everything we do.
                 </p>
                 <p>
                   We encourage you to carefully read and understand these Terms
                   as they set forth the legal terms and conditions governing
                   your use of the Hitch Mobile App. These Terms constitute a
-                  legally binding agreement between you and Hitch Africa Technologies Ltd.
-                  By accessing or using our services, you acknowledge that you
-                  have read, understood, and agree to comply with these Terms.
-                  These Terms encompass not only your rights and obligations as
-                  a user but also the responsibilities and commitments
-                  undertaken by Hitch Africa Technologies Ltd. They cover crucial aspects
-                  such as your account creation, use of our services, content
-                  submission, intellectual property rights, data privacy, and
-                  limitations of liability.
+                  legally binding agreement between you and Hitch Africa
+                  Technologies Ltd. By accessing or using our services, you
+                  acknowledge that you have read, understood, and agree to
+                  comply with these Terms. These Terms encompass not only your
+                  rights and obligations as a user but also the responsibilities
+                  and commitments undertaken by Hitch Africa Technologies Ltd.
+                  They cover crucial aspects such as your account creation, use
+                  of our services, content submission, intellectual property
+                  rights, data privacy, and limitations of liability.
                 </p>
                 <p>
                   To complement these Terms, we have developed a comprehensive
@@ -235,26 +235,25 @@ export default function Terms() {
             {active === 1 && (
               <div className="flex flex-col gap-5 md:text-lg">
                 <p>
-                  Welcome to the Terms and Conditions page for the Hitch Mobile
-                  App, provided to you by Hitch Africa Technologies Ltd, a leading
-                  provider of innovative multi-service solutions. These Terms
-                  govern your access to and use of the Hitch Mobile App and all
-                  its related services, collectively referred to as{" "}
-                  {`"our services."`} By accessing, registering, or using the
-                  Hitch Mobile App, you agree to be legally bound by these
-                  Terms. If you do not accept these Terms in their entirety, you
-                  must discontinue using our services immediately.
+                  By using Hitch {`Africa's`} services, including but not
+                  limited to the Hitch Africa website, mobile applications, and
+                  any related services (collectively referred to as the{" "}
+                  {`"Service"`}), you agree to the following terms and
+                  conditions. Please read this document carefully before using
+                  the Service.
                 </p>
+                <b>1. Acceptance of Terms</b>
+                
               </div>
             )}
             {active === 2 && (
               <div className="flex flex-col gap-5 md:text-lg">
                 <p>
                   Welcome to the Terms and Conditions page for the Hitch Mobile
-                  App, provided to you by Hitch Africa Technologies Ltd, a leading
-                  provider of innovative multi-service solutions. These Terms
-                  govern your access to and use of the Hitch Mobile App and all
-                  its related services, collectively referred to as{" "}
+                  App, provided to you by Hitch Africa Technologies Ltd, a
+                  leading provider of innovative multi-service solutions. These
+                  Terms govern your access to and use of the Hitch Mobile App
+                  and all its related services, collectively referred to as{" "}
                   {`"our services."`} By accessing, registering, or using the
                   Hitch Mobile App, you agree to be legally bound by these
                   Terms. If you do not accept these Terms in their entirety, you
@@ -266,10 +265,10 @@ export default function Terms() {
               <div className="flex flex-col gap-5 md:text-lg">
                 <p>
                   Welcome to the Terms and Conditions page for the Hitch Mobile
-                  App, provided to you by Hitch Africa Technologies Ltd, a leading
-                  provider of innovative multi-service solutions. These Terms
-                  govern your access to and use of the Hitch Mobile App and all
-                  its related services, collectively referred to as{" "}
+                  App, provided to you by Hitch Africa Technologies Ltd, a
+                  leading provider of innovative multi-service solutions. These
+                  Terms govern your access to and use of the Hitch Mobile App
+                  and all its related services, collectively referred to as{" "}
                   {`"our services."`} By accessing, registering, or using the
                   Hitch Mobile App, you agree to be legally bound by these
                   Terms. If you do not accept these Terms in their entirety, you
@@ -281,10 +280,10 @@ export default function Terms() {
               <div className="flex flex-col gap-5 md:text-lg">
                 <p>
                   Welcome to the Terms and Conditions page for the Hitch Mobile
-                  App, provided to you by Hitch Africa Technologies Ltd, a leading
-                  provider of innovative multi-service solutions. These Terms
-                  govern your access to and use of the Hitch Mobile App and all
-                  its related services, collectively referred to as{" "}
+                  App, provided to you by Hitch Africa Technologies Ltd, a
+                  leading provider of innovative multi-service solutions. These
+                  Terms govern your access to and use of the Hitch Mobile App
+                  and all its related services, collectively referred to as{" "}
                   {`"our services."`} By accessing, registering, or using the
                   Hitch Mobile App, you agree to be legally bound by these
                   Terms. If you do not accept these Terms in their entirety, you
@@ -296,10 +295,10 @@ export default function Terms() {
               <div className="flex flex-col gap-5 md:text-lg">
                 <p>
                   Welcome to the Terms and Conditions page for the Hitch Mobile
-                  App, provided to you by Hitch Africa Technologies Ltd, a leading
-                  provider of innovative multi-service solutions. These Terms
-                  govern your access to and use of the Hitch Mobile App and all
-                  its related services, collectively referred to as{" "}
+                  App, provided to you by Hitch Africa Technologies Ltd, a
+                  leading provider of innovative multi-service solutions. These
+                  Terms govern your access to and use of the Hitch Mobile App
+                  and all its related services, collectively referred to as{" "}
                   {`"our services."`} By accessing, registering, or using the
                   Hitch Mobile App, you agree to be legally bound by these
                   Terms. If you do not accept these Terms in their entirety, you
@@ -311,10 +310,10 @@ export default function Terms() {
               <div className="flex flex-col gap-5 md:text-lg">
                 <p>
                   Welcome to the Terms and Conditions page for the Hitch Mobile
-                  App, provided to you by Hitch Africa Technologies Ltd, a leading
-                  provider of innovative multi-service solutions. These Terms
-                  govern your access to and use of the Hitch Mobile App and all
-                  its related services, collectively referred to as{" "}
+                  App, provided to you by Hitch Africa Technologies Ltd, a
+                  leading provider of innovative multi-service solutions. These
+                  Terms govern your access to and use of the Hitch Mobile App
+                  and all its related services, collectively referred to as{" "}
                   {`"our services."`} By accessing, registering, or using the
                   Hitch Mobile App, you agree to be legally bound by these
                   Terms. If you do not accept these Terms in their entirety, you
@@ -326,10 +325,10 @@ export default function Terms() {
               <div className="flex flex-col gap-5 md:text-lg">
                 <p>
                   Welcome to the Terms and Conditions page for the Hitch Mobile
-                  App, provided to you by Hitch Africa Technologies Ltd, a leading
-                  provider of innovative multi-service solutions. These Terms
-                  govern your access to and use of the Hitch Mobile App and all
-                  its related services, collectively referred to as{" "}
+                  App, provided to you by Hitch Africa Technologies Ltd, a
+                  leading provider of innovative multi-service solutions. These
+                  Terms govern your access to and use of the Hitch Mobile App
+                  and all its related services, collectively referred to as{" "}
                   {`"our services."`} By accessing, registering, or using the
                   Hitch Mobile App, you agree to be legally bound by these
                   Terms. If you do not accept these Terms in their entirety, you
@@ -341,7 +340,9 @@ export default function Terms() {
         </div>
       </div>
       <div className="w-full flex flex-col md:flex-row gap-10 justify-evenly items-center py-10 md:py-28 bg-primary">
-        <b className="text-3xl md:text-[40px] font-[700] text-white">Customer Support</b>
+        <b className="text-3xl md:text-[40px] font-[700] text-white">
+          Customer Support
+        </b>
         <button className="px-14 py-4 text-lg bg-white text-primary rounded-lg font-[600]">
           Contact Us
         </button>
