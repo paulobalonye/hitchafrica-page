@@ -94,16 +94,16 @@ export default function Footer() {
       <div className="text-xs md:text-base py-4 md:py-8 flex flex-col md:flex-row gap-1 justify-center md:justify-between items-center text-center border-[#9EA9A8] border-t">
         <span> © Hitch Africa Copyright Reserved 2023 </span>
         <nav className="flex gap-5 items-center text-xl text-dark">
-          <a href="" target="_blank" rel="noopener noreferrer">
+          <a href="https://facebook.com/hitchafrica" target="_blank" rel="noopener noreferrer">
             <FaFacebook className="" />
           </a>
-          <a href="" target="_blank" rel="noopener noreferrer">
+          <a href="https://twitter.com/hitchafrica" target="_blank" rel="noopener noreferrer">
             <FaTwitter className="" />
           </a>
-          <a href="" target="_blank" rel="noopener noreferrer">
+          <a href="https://instagram.com/hitchafrica" target="_blank" rel="noopener noreferrer">
             <FaInstagram className="" />
           </a>
-          <a href="" target="_blank" rel="noopener noreferrer">
+          <a href="https://linkedin.com/in/hitchafrica" target="_blank" rel="noopener noreferrer">
             <FaLinkedin className="" />
           </a>
         </nav>
