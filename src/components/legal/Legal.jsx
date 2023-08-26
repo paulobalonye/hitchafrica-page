@@ -20,7 +20,7 @@ export default function Legal() {
     {
       question: "INTRODUCTION",
       answer:
-        'The following terms and conditions govern all use of the www.zeetomic.com website and all content, services and products available at or through the website (taken together, the Website). The Website is owned and operated by Zeetomic, Inc. ("Zeetomic"). The Website is offered subject to your acceptance without modification of all of the terms and conditions contained herein and all other operating rules, policies (including, without limitation, Zeetomic\'s Privacy Policy) and procedures that may be published from time to time on this Site by Zeetomic (collectively, the "Agreement").',
+        'The following terms and conditions govern all use of the www.zeetomic.com website and all content, services and products available at or through the website (taken together, the Website). The Website is owned and operated by Hitch Africa Technologies Ltd. ("Zeetomic"). The Website is offered subject to your acceptance without modification of all of the terms and conditions contained herein and all other operating rules, policies (including, without limitation, Zeetomic\'s Privacy Policy) and procedures that may be published from time to time on this Site by Zeetomic (collectively, the "Agreement").',
     },
     {
       question: "DATA PROTECTION AND COMPLIANCE",
@@ -30,12 +30,12 @@ export default function Legal() {
     {
       question: 'TERMS OF USE',
       answer:
-        "By accessing or using the Website, you are agreeing to these Terms and entering into a legally binding contract with Zeetomic, Inc. Do not access or use the Website if you are unwilling or unable to be bound by the Terms.",
+        "By accessing or using the Website, you are agreeing to these Terms and entering into a legally binding contract with Hitch Africa Technologies Ltd. Do not access or use the Website if you are unwilling or unable to be bound by the Terms.",
     },
     {
       question: "INTELLECTUAL PROPERTY",
       answer:
-        "The Website and its original content, features and functionality are owned by Zeetomic, Inc. and are protected by international copyright.",
+        "The Website and its original content, features and functionality are owned by Hitch Africa Technologies Ltd. and are protected by international copyright.",
     },
     {
       question: "PROHIBITED ACTIVITIES",
@@ -45,7 +45,7 @@ export default function Legal() {
     {
       question: "LIABILITY AND DISCLAIMERS",
       answer:
-        "The Website is provided on an 'as is' basis. To the fullest extent permitted by law, Zeetomic, Inc. makes no representations or warranties of any kind, express or implied, regarding the use or the results of this Website in terms of its correctness, accuracy, reliability, or otherwise. Zeetomic, Inc. shall have no liability for any interruptions in the use of this Website. Zeetomic, Inc. disclaims all warranties with regard to the information provided, including the implied warranties of merchantability and fitness for a particular purpose, and non-infringement.",
+        "The Website is provided on an 'as is' basis. To the fullest extent permitted by law, Hitch Africa Technologies Ltd. makes no representations or warranties of any kind, express or implied, regarding the use or the results of this Website in terms of its correctness, accuracy, reliability, or otherwise. Hitch Africa Technologies Ltd. shall have no liability for any interruptions in the use of this Website. Hitch Africa Technologies Ltd. disclaims all warranties with regard to the information provided, including the implied warranties of merchantability and fitness for a particular purpose, and non-infringement.",
     },
     {
       question: "CONTACT INFORMATION",

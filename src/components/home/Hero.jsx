@@ -48,25 +48,25 @@ export default function Hero() {
           </span>
         </p>
       </div>
-      <Image src={hero} alt="" className='w-2/3 object-contain' />
+      <Image src={hero} alt="" className='w-full md:w-2/3 md:object-contain' />
       <div className="flex flex-col md:grid grid-cols-4 gap-10 py-10 text-[#434A54] px-5 md:px-20 ">
         <nav className="flex flex-col gap-3 font-[800] text-[32px] md:text-[36px] text-[#0B1621]">
           Hitch Africa | Lifestyle App
         </nav>
         <nav className="flex flex-col gap-3 text-lg md:text-xl">
-          <b className="text-[32px] md:text-[36px] text-[#0B1621] font-[700]">
+          <b className="text-[32px] md:text-[36px] text-[#0B1621] font-[700] leading-normal">
             Happy Riders
           </b>
           <p>Join our ever-growing rider community.</p>
         </nav>
         <nav className="flex flex-col gap-3 text-lg md:text-xl">
-          <b className="text-[32px] md:text-[36px] text-[#0B1621] font-[700]">
+          <b className="text-[32px] md:text-[36px] text-[#0B1621] font-[700] leading-normal">
             Fast Food Deliveries
           </b>
           <p>Timely, reliable package and food delivery.</p>
         </nav>
         <nav className="flex flex-col gap-3 text-lg md:text-xl">
-          <b className="text-[32px] md:text-[36px] text-[#0B1621] font-[700]">
+          <b className="text-[32px] md:text-[36px] text-[#0B1621] font-[700] leading-normal">
             1K+ Pros
           </b>
           <p>Choose from a wide range of trusted service providers.</p>
