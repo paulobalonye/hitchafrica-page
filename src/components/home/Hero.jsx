@@ -48,7 +48,7 @@ export default function Hero() {
           </span>
         </p>
       </div>
-      <Image src={hero} alt="" className='w-full md:w-2/3 h-[80vw] md:h-[unset] md:object-contain' />
+      <Image src={hero} alt="" className='w-full md:w-2/3 h-[80vw] md:h-[unset] object-fill md:object-contain' />
       <div className="flex flex-col md:grid grid-cols-4 gap-10 py-10 text-[#434A54] px-5 md:px-20 ">
         <nav className="flex flex-col gap-3 font-[800] text-[32px] md:text-[36px] text-[#0B1621]">
           Hitch Africa | Lifestyle App
