@@ -1,5 +1,5 @@
 import Image from "next/image";
-// import hero from "@/assets/hero.jpg";
+import hero from "@/assets/hero.jpeg";
 // import { FaPlay } from "react-icons/fa";
 import bg1 from "@/assets/hero/hero1.svg";
 import bg2 from "@/assets/hero/hero2.svg";

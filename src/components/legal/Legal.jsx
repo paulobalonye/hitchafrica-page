@@ -30,29 +30,38 @@ export default function Legal() {
     },
     {
       question: "TERMS OF USE",
-      answer:
-        (
-          <div>
-            <p> 
-              <b>1. Eligibility:</b> Users must meet eligibility criteria to use our platform, including legal age and possession of a valid driver's license.
-            </p>
-            <p>
-              <b>2. Account Creation:</b> Users are responsible for maintaining accurate account information and must not share account credentials.
-            </p>
-            <p>
-              <b>3. Service Usage:</b> Users agree to use the platform for lawful purposes and to comply with local laws and regulations.
-            </p>
-            <p>
-            <b>4. Payment:</b> Payment terms and methods are outlined in our Payment Policy. Users are responsible for any applicable fees or charges.
-            </p>
-            <p>
-            <b>5. User Conduct:</b> Users must adhere to our code of conduct, respecting others and refraining from harmful or disruptive behavior.
-            </p>
-            <p>
-            <b>6. Modification and Termination:</b> Hitch Africa reserves the right to modify or terminate services, accounts, or these terms at its discretion.
-            </p>
-          </div>
-        )
+      answer: (
+        <div>
+          <p>
+            <b>1. Eligibility:</b> Users must meet eligibility criteria to use
+            our platform, including legal age and possession of a valid{" "}
+            {`driver's`} license.
+          </p>
+          <p>
+            <b>2. Account Creation:</b> Users are responsible for maintaining
+            accurate account information and must not share account credentials.
+          </p>
+          <p>
+            <b>3. Service Usage:</b> Users agree to use the platform for lawful
+            purposes and to comply with local laws and regulations.
+          </p>
+          <p>
+            <b>4. Payment:</b> Payment terms and methods are outlined in our
+            Payment Policy. Users are responsible for any applicable fees or
+            charges.
+          </p>
+          <p>
+            <b>5. User Conduct:</b> Users must adhere to our code of conduct,
+            respecting others and refraining from harmful or disruptive
+            behavior.
+          </p>
+          <p>
+            <b>6. Modification and Termination:</b> Hitch Africa reserves the
+            right to modify or terminate services, accounts, or these terms at
+            its discretion.
+          </p>
+        </div>
+      ),
     },
     {
       question: "INTELLECTUAL PROPERTY",
@@ -61,42 +70,63 @@ export default function Legal() {
     },
     {
       question: "PROHIBITED ACTIVITIES",
-      answer:
-       (<div>
-        <p>Users are strictly prohibited from:</p>
-        <p>1. Engaging in fraudulent, illegal, or harmful activities on the platform.</p>
-        <p>2. Misrepresenting identity, information, or intent.</p>
-        <p>3. Violating the privacy or rights of other users or third parties.</p>
-<p>4. Interfering with the platform's functionality, security, or integrity.</p>
-<p>5. Engaging in any activity that violates these terms or applicable laws.</p>
-
-       </div>)
+      answer: (
+        <div>
+          <p>Users are strictly prohibited from:</p>
+          <p>
+            1. Engaging in fraudulent, illegal, or harmful activities on the
+            platform.
+          </p>
+          <p>2. Misrepresenting identity, information, or intent.</p>
+          <p>
+            3. Violating the privacy or rights of other users or third parties.
+          </p>
+          <p>
+            4. Interfering with the {`platform's`} functionality, security, or
+            integrity.
+          </p>
+          <p>
+            5. Engaging in any activity that violates these terms or applicable
+            laws.
+          </p>
+        </div>
+      ),
     },
     {
       question: "LIABILITY AND DISCLAIMERS",
-      answer:
-        (
-          <div>
-            <p>1. Use at Your Own Risk: Users use the Hitch Africa platform at their own risk. Hitch Africa does not guarantee the accuracy, reliability, or availability of services.
-</p>
-            <p>2. Limitation of Liability: Hitch Africa is not liable for any indirect, incidental, consequential, or punitive damages arising from platform use.
-</p>
-            <p>3. Third-Party Services: Hitch Africa may integrate third-party services; users acknowledge that these services are subject to their own terms and policies.
-</p>
-          </div>
-        )
+      answer: (
+        <div>
+          <p>
+            1. Use at Your Own Risk: Users use the Hitch Africa platform at
+            their own risk. Hitch Africa does not guarantee the accuracy,
+            reliability, or availability of services.
+          </p>
+          <p>
+            2. Limitation of Liability: Hitch Africa is not liable for any
+            indirect, incidental, consequential, or punitive damages arising
+            from platform use.
+          </p>
+          <p>
+            3. Third-Party Services: Hitch Africa may integrate third-party
+            services; users acknowledge that these services are subject to their
+            own terms and policies.
+          </p>
+        </div>
+      ),
     },
     {
       question: "CONTACT INFORMATION",
-      answer:
-        (
-          <div>
-            <p>For any inquiries, concerns, or legal notices related to these terms, please contact us at:</p>
-            <p>- Email: legal@hitchafrica.com</p>
-            <p>- Address: Ikeja Lagos</p>
-            <p>- Phone: +234-7075-555-4168 +1-440-771-3030</p>
-          </div>
-        )
+      answer: (
+        <div>
+          <p>
+            For any inquiries, concerns, or legal notices related to these
+            terms, please contact us at:
+          </p>
+          <p>- Email: legal@hitchafrica.com</p>
+          <p>- Address: Ikeja Lagos</p>
+          <p>- Phone: +234-7075-555-4168 +1-440-771-3030</p>
+        </div>
+      ),
     },
   ];
   return (
@@ -146,8 +176,12 @@ export default function Legal() {
               </nav>
             ))}
           </div>
-          <p>By using Hitch Africa's services, you agree to abide by these legal and compliance terms. It's important to review these terms periodically, as they may be updated to reflect changes in laws or the platform's operation.
-</p>
+          <p>
+            By using Hitch {`Africa's`} services, you agree to abide by these
+            legal and compliance terms. {`It's`} important to review these terms
+            periodically, as they may be updated to reflect changes in laws or
+            the {`platform's`} operation.
+          </p>
         </div>
       </div>
       <div className="w-full flex flex-col md:flex-row gap-10 justify-evenly items-center py-10 md:py-28 bg-primary">
