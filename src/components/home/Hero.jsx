@@ -1,5 +1,7 @@
 import Image from "next/image";
-import hero from "@/assets/hero.jpeg";
+import hero1 from "@/assets/howw/how1.png";
+import hero2 from "@/assets/howw/how2.png";
+import hero3 from "@/assets/howw/how3.png";
 // import { FaPlay } from "react-icons/fa";
 import bg1 from "@/assets/hero/hero1.svg";
 import bg2 from "@/assets/hero/hero2.svg";
@@ -48,8 +50,24 @@ export default function Hero() {
           </span>
         </p>
       </div>
-      <Image src={hero} alt="" className='w-full md:w-2/3 h-[80vw] md:h-[unset] object-fill md:object-contain' />
-      <div className="flex flex-col md:grid grid-cols-4 gap-10 py-10 text-[#434A54] px-5 md:px-20 ">
+      <figure className="w-full md:w-2/3 flex gap-10 items-center justify-center">
+        <Image
+          src={hero1}
+          alt=""
+          className=" md:h-[70vh] object-fill md:object-contain hidden md:block"
+        />
+        <Image
+          src={hero2}
+          alt=""
+          className=" md:h-[70vh] object-fill md:object-contain w-full md:w-[unset]"
+        />
+        <Image
+          src={hero3}
+          alt=""
+          className=" md:h-[70vh] object-fill md:object-contain hidden md:block"
+        />
+      </figure>
+      <div className="flex flex-col md:grid grid-cols-4 gap-10 py-10 text-[#434A54] md:px-20 ">
         <nav className="flex flex-col gap-3 font-[800] text-[32px] md:text-[36px] text-[#0B1621]">
           Hitch Africa | Lifestyle App
         </nav>

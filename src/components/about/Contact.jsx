@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from 'next/link'
-import feature from "@/assets/contact.jpeg";
+import feature from "@/assets/solution1.png";
 import wave from '@/assets/wave-abt.svg'
 export default function Contact() {
   return (

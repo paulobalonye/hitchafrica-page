@@ -8,7 +8,7 @@ export default function Form() {
         <h3 className="text-lg text-primary">CONTACT US</h3>
         <div className="flex flex-col gap-8">
           <h3 className="font-[800] leading-normal text-dark text-[32px] md:text-[56px]">
-            Connect with Us:
+            Reach Out Now:
             <br className="hidden md:block" /> Your Questions,
             <br className="hidden md:block" /> Our Priority.
           </h3>

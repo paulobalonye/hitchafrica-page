@@ -50,9 +50,9 @@ export default function News() {
           </p>
         </nav>
       </div>
-      <button className="md:hidden flex gap-2 items-center text-primary mt-auto">
+      {/* <button className="md:hidden flex gap-2 items-center text-primary mt-auto">
         See all articles <FaArrowRight />
-      </button>
+      </button> */}
     </main>
   );
 }

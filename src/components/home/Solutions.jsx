@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import feature from "@/assets/assprovider.jpg";
+import feature from "@/assets/howw/how4.png";
 import bar from "@/assets/chart.svg";
 import dash from "@/assets/dash.svg";
 
@@ -11,11 +11,11 @@ export default function Solutions() {
         <div className="md:hidden flex flex-col gap-5">
           <p className="text-primary">OUR FEATURES</p>
           <h4 className="text-[#0B1621] text-2xl font-[800] leading-normal">
-            Upgrade to pro to unlock all features.
+          Seamless Services for Your Every Need: Hitch, Deliver, Excel.
           </h4>
         </div>
         <figure className="w-full flex h-full justify-center items-center">
-          <Image src={feature} alt="" className="w-full rounded-xl" />
+          <Image src={feature} alt="" className=" md:h-[80vh] object-fill md:object-contain w-full md:w-[unset]"/>
         </figure>
         <div className="w-full flex flex-col gap-5 md:gap-14">
           <p className="text-primary hidden md:block">OUR FEATURES</p>
