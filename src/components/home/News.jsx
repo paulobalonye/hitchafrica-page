@@ -1,6 +1,5 @@
 import Image from "next/image";
-import { FaArrowRight } from "react-icons/fa";
-import news1 from "@/assets/urban.jpg";
+import news1 from "@/assets/news/news1.jpeg";
 import news2 from "@/assets/bts.jpg";
 
 export default function News() {
@@ -20,22 +19,30 @@ export default function News() {
       </div>
       <div className="flex flex-col md:grid grid-cols-2 gap-10 md:gap-5">
         <nav className="flex flex-col gap-5">
-          <Image src={news1} alt="" className="w-full md:h-[400px] object-cover" />
+          <Image
+            src={news1}
+            alt=""
+            className="w-full md:h-[400px] object-cover"
+          />
           <span className="text-primary bg-[#E8F7F2] rounded-full px-3 py-2 w-fit">
-            Transport
+            launch
           </span>
           <b className="text-xl text-dark font-[800]">
-            Navigating Urban Life: How Hitch Africa Revolutionized City
-            Transportation
+            HitchAfrica’s borderless marketplace app to drive on-demand services
           </b>
           <p className="font-[500]">
-            Discover how Hitch {`Africa's`} innovative ride-hailing service has
-            transformed the way people move around bustling cities, providing
-            convenience, safety, and efficiency.
+            Hitch Africa, an online marketplace for on-demand services for
+            Africans is set to launch an innovative On-Demand Service experience
+            for the African market that prioritises comfort, safety, and
+            effortless transactions.
           </p>
         </nav>
         <nav className="flex flex-col gap-5">
-          <Image src={news2} alt="" className="w-full md:h-[400px] object-cover" />
+          <Image
+            src={news2}
+            alt=""
+            className="w-full md:h-[400px] object-cover"
+          />
           <span className="text-primary bg-[#E8F7F2] rounded-full px-3 py-2 w-fit">
             Delivery
           </span>
@@ -44,7 +51,7 @@ export default function News() {
             and Package Delivery Services
           </b>
           <p className="font-[500]">
-            Dive into the logistics and technology that power Hitch {`Africa's`} 
+            Dive into the logistics and technology that power Hitch {`Africa's`}
             seamless delivery experience, ensuring your meals and packages reach
             you swiftly and in perfect condition.
           </p>

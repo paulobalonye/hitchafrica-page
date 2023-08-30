@@ -1,5 +1,5 @@
 import Image from "next/image";
-import team1 from "@/assets/team/team1.jpg";
+import team1 from "@/assets/team/team1.jpeg";
 import team2 from "@/assets/team/team2.jpg";
 import team3 from "@/assets/team/team3.jpg";
 import team4 from "@/assets/team/team4.jpg";
@@ -32,35 +32,35 @@ export default function Team() {
           <p>And we are the best</p>
         </nav> */}
         <figure className="flex flex-col w-full h-full">
-          <Image src={team1} alt="" className="w-full h-full" />{" "}
+          <Image src={team1} alt="" className="w-full h-full object-cover" />{" "}
           <figcaption className="w-full py-4 bg-dark text-center text-white font=[600] flex flex-col gap-1 justify-center items-center">
             <b className='text-lg font-[600]'>Paul Obalonye</b>
             <span>Founder/CEO</span>
           </figcaption>{" "}
         </figure>
         <figure className="flex flex-col w-full h-full">
-          <Image src={team2} alt="" className="w-full h-full" />{" "}
+          <Image src={team2} alt="" className="w-full h-full object-cover" />{" "}
           <figcaption className="w-full py-4 bg-dark text-center text-white font=[600] flex flex-col gap-1 justify-center items-center">
             <b className='text-lg font-[600]'>Samuel Owadayo</b>
             <span>Chief Technology Officer</span>
           </figcaption>{" "}
         </figure>
         <figure className="flex flex-col w-full h-full">
-          <Image src={team3} alt="" className="w-full h-full" />{" "}
+          <Image src={team3} alt="" className="w-full h-full object-cover" />{" "}
           <figcaption className="w-full py-4 bg-dark text-center text-white font=[600] flex flex-col gap-1 justify-center items-center">
             <b className='text-lg font-[600]'>Austin Daniels</b>
             <span>Chief Marketing Officer</span>
           </figcaption>{" "}
         </figure>
         <figure className="flex flex-col w-full h-full">
-          <Image src={team4} alt="" className="w-full h-full" />{" "}
+          <Image src={team4} alt="" className="w-full h-full object-cover" />{" "}
           <figcaption className="w-full py-4 bg-dark text-center text-white font=[600] flex flex-col gap-1 justify-center items-center">
             <b className='text-lg font-[600]'>Ajibade Victoria</b>
             <span>Snr Product Manager</span>
           </figcaption>{" "}
         </figure>
         {/* <figure className="flex flex-col w-full h-full">
-          <Image src={team5} alt="" className="w-full h-full" />{" "}
+          <Image src={team5} alt="" className="w-full h-full object-cover" />{" "}
           <figcaption className="w-full py-4 bg-dark text-center text-white font=[600] flex flex-col gap-1 justify-center items-center">
             <b className='text-lg font-[600]'> John Doe</b>
             <span>CEO</span>
