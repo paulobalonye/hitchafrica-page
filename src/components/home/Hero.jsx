@@ -26,9 +26,9 @@ export default function Hero() {
         className="absolute md:w-1/2 right-0 bottom-0 h-1/3 z-[-1]"
       />
       <div className="flex flex-col gap-5 md:gap-10 items-center text-center">
-        <p className="md:text-xl text-primary">
+        {/* <p className="md:text-xl text-primary">
           MEET THE ONE AND ONLY HITCH AFRICA
-        </p>
+        </p> */}
         <h3 className="text-[32px] md:text-[64px] text-[#001E1D] font-[800] leading-normal">
           3 countries. 40+ products. <br className="hidden md:block" /> 1
           leading on-demand platform

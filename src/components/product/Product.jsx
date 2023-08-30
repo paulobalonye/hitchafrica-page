@@ -17,10 +17,8 @@ export default function Product() {
       className="px-5 md:px-20 py-10 md:py-20 flex flex-col gap-10 md:gap-16 items-center"
       id="pricing"
     >
-      <h3 className="text-dark text-[30px] md:text-[60px] leading-normal text-center font-[800]">
-        Elevate Every Experience with Hitch Africa: Your One-Stop
-        <br className="hidden md:block" />
-        Solution for Seamless Services.
+      <h3 className="text-dark text-[30px] md:text-[55px] leading-normal text-center font-[800]">
+        Elevate Every Experience with Hitch Africa: Your One-Stop Solution for Seamless Services.
       </h3>
       <div className="w-full flex flex-col md:grid grid-cols-3 font-[500] gap-10 text-lg">
         <nav className="flex flex-col gap-4 bg-white shadow-[0px_36px_64px_0px_rgba(39,26,26,0.20)] rounded-xl w-full">
