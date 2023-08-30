@@ -1,6 +1,7 @@
 import Image from "next/image";
 import news1 from "@/assets/news/news1.jpeg";
 import news2 from "@/assets/bts.jpg";
+import Link from "next/link";
 
 export default function News() {
   return (
@@ -27,9 +28,12 @@ export default function News() {
           <span className="text-primary bg-[#E8F7F2] rounded-full px-3 py-2 w-fit">
             launch
           </span>
-          <b className="text-xl text-dark font-[800]">
+          <Link
+            href="https://businessday.ng/technology/article/hitchafricas-borderless-marketplace-app-to-drive-on-demand-services/"
+            className="text-xl text-dark font-[800]"
+          >
             HitchAfrica’s borderless marketplace app to drive on-demand services
-          </b>
+          </Link>
           <p className="font-[500]">
             Hitch Africa, an online marketplace for on-demand services for
             Africans is set to launch an innovative On-Demand Service experience
