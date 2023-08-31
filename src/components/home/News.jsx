@@ -1,5 +1,5 @@
 import Image from "next/image";
-import news1 from "@/assets/news/news1.jpeg";
+import news1 from "@/assets/howw/how2.png";
 import news2 from "@/assets/bts.jpg";
 import Link from "next/link";
 

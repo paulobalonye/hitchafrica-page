@@ -1,9 +1,9 @@
 import Image from "next/image";
 import team1 from "@/assets/team/team1.jpeg";
-import team2 from "@/assets/team/team2.jpg";
-import team3 from "@/assets/team/team3.jpg";
-import team4 from "@/assets/team/team4.jpg";
-import team5 from "@/assets/team/team5.jpg";
+import team2 from "@/assets/team/team.jpg";
+import team3 from "@/assets/team/team2.jpg";
+import team4 from "@/assets/team/team3.jpg";
+// import team5 from "@/assets/team/team5.jpg";
 
 export default function Team() {
   return (
