@@ -13,7 +13,6 @@ export default function Team() {
           <b className="text-[32px] md:text-[36px] font-[800] text-dark leading-normal">
             The Hitch Team
           </b>
-          {/* <p>And we are the best</p> */}
         </nav>
         <p className="text-xl">
           Meet the Faces Behind Hitch Africa: A Dedicated
