@@ -17,7 +17,7 @@ export default function Hero() {
           </p>
         </div>
         <form className="hidden md:flex flex-col text-[#121212] bg-white md:px-10 py-8 gap-10 rounded-3xl px-5 w-full shadow-xl">
-          <h4 className="font-semibold text-[22px]">Sign Up Now</h4>
+          <h4 className="font-semibold text-[22px]">Make an Order</h4>
           <label className="flex flex-col gap-2">
             <span>Phone Number</span>
             <input
@@ -85,9 +85,9 @@ export default function Hero() {
         </form>
         <div className="absolute top-0 left-0 w-full h-full  bg-[rgba(18,18,18,0.8)] backdrop-blur-[5px] z-[-1]"></div>
       </section>
-      <section className="px-5 translate-y-[-25%] md:hidden">
+      <section className="px-5 translate-y-[-10%] md:hidden">
         <form className="z-[99999] flex flex-col text-[#121212] bg-white md:px-10 py-8 gap-5 rounded-3xl px-5 w-full md:w-[40%] shadow-lg">
-          <h4 className="font-semibold text-[22px]">Sign Up Now</h4>
+          <h4 className="font-semibold text-[22px]">Make an Order</h4>
           <label className="flex flex-col gap-2">
             <span>Phone Number</span>
             <input
