@@ -23,13 +23,6 @@ export default function Team() {
         </p>
       </div>
       <div className="flex flex-col gap-5 md:grid grid-cols-4">
-        {/* <nav className="flex flex-col justify-center gap-4 text-xl md:px-10">
-          <b className="font-[800]">THE TEAM</b>
-          <b className="text-3xl md:text-[36px] font-[800] text-dark leading-normal">
-            The Hitch Team
-          </b>
-          <p>And we are the best</p>
-        </nav> */}
         <figure className="flex flex-col w-full h-full">
           <Image src={team1} alt="" className="w-full h-full object-cover" />{" "}
           <figcaption className="w-full py-4 bg-dark text-center text-white font=[600] flex flex-col gap-1 justify-center items-center">

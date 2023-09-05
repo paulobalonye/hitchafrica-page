@@ -1,12 +1,34 @@
 "use client";
 import logo from "@/assets/logo2.png";
-import { useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaCaretDown, FaCaretUp, FaTimes } from "react-icons/fa";
+
+export function useOnHoverOutside(ref, handler) {
+  useEffect(() => {
+    const listener = (event) => {
+      if (!ref.current || ref.current.contains(event.target)) {
+        return;
+      }
+      handler(event);
+    };
+    document.addEventListener("mouseover", listener);
+    return () => {
+      document.removeEventListener("mouseout", listener);
+    };
+  }, [ref, handler]);
+}
+
 export default function Header() {
   const [open, setOpen] = useState(false);
-  const [country, setCountry] = useState("NG");
+  const dropdownRef = useRef(null);
+  const [isMenuDropDownOpen, setMenuDropDownOpen] = useState(false);
+  const closeHoverMenu = () => {
+    setMenuDropDownOpen(false);
+  };
+  useOnHoverOutside(dropdownRef, closeHoverMenu);
+
   return (
     <header className="sticky bg-white md:bg-inherit top-0 left-0 backdrop-blur-[20px] z-[999999] text-white md:text-primary font-[600] shadow-md px-3 md:px-20 py-4 flex justify-between items-center">
       <div className="flex items-center gap-10">
@@ -20,13 +42,54 @@ export default function Header() {
               : " top-14 left-[-900%]"
           } absolute md:static  w-full z-[999999999] md:w-[unset] text-lg flex flex-col md:flex-row shadow-md md:shadow-none  gap-5 md:gap-10 items-center transition-all duration-1000 ease-in-out overflow-y-scroll snap`}
         >
-          <a
+          {/* <a
             href="/partner-with-us"
             onClick={() => setOpen(false)}
             className="py-4 md:py-0 border-b md:border-none w-full md:w-fit md:min-w-fit"
           >
             Partner With Us
-          </a>
+          </a> */}
+          <div
+            className="py-4 md:py-0 border-b md:border-none w-full md:w-fit md:min-w-fit"
+            ref={dropdownRef}
+          >
+            <button
+              className="flex gap-1 items-center text-primary"
+              onMouseOver={() => setMenuDropDownOpen(true)}
+              onClick={() => setMenuDropDownOpen(!isMenuDropDownOpen)}
+            >
+              Partner With Us
+              {isMenuDropDownOpen ? <FaCaretUp /> : <FaCaretDown />}
+            </button>
+            {isMenuDropDownOpen && (
+              <nav
+                className="flex flex-col items-start absolute  mt-2  bg-white md:shadow-md rounded-xl p-5"
+                ref={dropdownRef}
+              >
+                <Link
+                  href="/driver"
+                  onClick={() => setOpen(false)}
+                  className="py-4 border-b w-full"
+                >
+                  Partner As Driver
+                </Link>
+                <Link
+                  href="/merchant"
+                  onClick={() => setOpen(false)}
+                  className="py-4 border-b w-full"
+                >
+                  Partner As Merchant
+                </Link>
+                <Link
+                  href="/service-provider"
+                  onClick={() => setOpen(false)}
+                  className="py-4 border-b w-full"
+                >
+                  Partner As Service Provider
+                </Link>
+              </nav>
+            )}
+          </div>
           <Link
             href="/product"
             onClick={() => setOpen(false)}

@@ -72,9 +72,9 @@ export default function Footer() {
               Partner with Hitch
             </h3>
             <ul className="flex flex-col gap-3">
-              <Link href="/partner-with-us">Sign up as a driver</Link>
-              <Link href="/partner-with-us">Sign up as a merchant</Link>
-              <Link href="/partner-with-us">Sign up as a service provider</Link>
+              <Link href="/driver">Sign up as a driver</Link>
+              <Link href="/merchant">Sign up as a merchant</Link>
+              <Link href="/service-provider">Sign up as a service provider</Link>
             </ul>
           </div>
         </nav>
