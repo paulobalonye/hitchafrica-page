@@ -20,7 +20,7 @@ export default function How() {
             <Image
               src={how1}
               alt=""
-              className="w-full md:h-[50vh] shadow-xl rounded-2xl object-fill md:object-cover"
+              className="w-full h-[50vh] shadow-xl rounded-2xl object-cover"
             />
           </figure>
           <div className="flex gap-3 md:gap-6 items-start">
@@ -43,7 +43,7 @@ export default function How() {
             <Image
               src={how2}
               alt=""
-              className="w-full md:h-[50vh] shadow-xl rounded-2xl object-fill md:object-cover"
+              className="w-full h-[50vh] shadow-xl rounded-2xl object-cover"
             />
           </figure>
           <div className="flex gap-3 md:gap-6 items-start">
@@ -66,7 +66,7 @@ export default function How() {
             <Image
               src={how3}
               alt=""
-              className="w-full md:h-[50vh] shadow-xl rounded-2xl object-fill md:object-cover"
+              className="w-full h-[50vh] shadow-xl rounded-2xl object-cover"
             />
           </figure>
           <div className="flex gap-3 md:gap-6 items-start">
@@ -89,7 +89,7 @@ export default function How() {
             <Image
               src={how4}
               alt=""
-              className="w-full md:h-[50vh] shadow-xl rounded-2xl object-fill md:object-cover"
+              className="w-full h-[50vh] shadow-xl rounded-2xl object-cover"
             />
           </figure>
           <div className="flex gap-3 md:gap-6 items-start">

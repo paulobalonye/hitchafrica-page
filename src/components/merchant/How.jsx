@@ -19,7 +19,7 @@ export default function How() {
           </p>
           <div className="flex flex-col gap-5">
             <nav className="flex gap-3 items-center">
-              <span className="h-5 w-5 md:h-8 md:w-8 rounded-[50%] flex justify-center items-center text-white bg-primary font-[700] text-lg">
+              <span className="h-8 w-8 rounded-[50%] flex justify-center items-center text-white bg-primary font-[700] text-lg">
                 1
               </span>
               <div className="w-full flex flex-col gap-2">
@@ -33,7 +33,7 @@ export default function How() {
               </div>
             </nav>
             <nav className="flex gap-3 items-center">
-              <span className="h-5 w-5 md:h-8 md:w-8 rounded-[50%] flex justify-center items-center text-white bg-primary font-[700] text-lg">
+              <span className="h-8 w-8 rounded-[50%] flex justify-center items-center text-white bg-primary font-[700] text-lg">
                 2
               </span>
               <div className="w-full flex flex-col gap-2">
@@ -48,7 +48,7 @@ export default function How() {
               </div>
             </nav>
             <nav className="flex gap-3 items-center">
-              <span className="h-5 w-5 md:h-8 md:w-8 rounded-[50%] flex justify-center items-center text-white bg-primary font-[700] text-lg">
+              <span className="h-8 w-8 rounded-[50%] flex justify-center items-center text-white bg-primary font-[700] text-lg">
                 3
               </span>
               <div className="w-full flex flex-col gap-2">
@@ -63,7 +63,7 @@ export default function How() {
               </div>
             </nav>
             <nav className="flex gap-3 items-center">
-              <span className="h-5 w-5 md:h-8 md:w-8 rounded-[50%] flex justify-center items-center text-white bg-primary font-[700] text-lg">
+              <span className="h-8 w-8 rounded-[50%] flex justify-center items-center text-white bg-primary font-[700] text-lg">
                 4
               </span>
               <div className="w-full flex flex-col gap-2">

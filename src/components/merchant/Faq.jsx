@@ -99,7 +99,7 @@ export default function FAQ() {
             >
               <p className="">{info.question}</p>
               <span
-                className={`h-10 w-10 rounded-[50%] bg-[#F6F6F6] transition-all ease-in-out duration-700  flex justify-center items-center ${
+                className={`min-h-10 h-10 w-10 min-w-10 rounded-[50%] bg-[#F6F6F6] transition-all ease-in-out duration-700  flex justify-center items-center ${
                   activeIndices1.has(index) ? "rotate-180" : ""
                 }`}
               >

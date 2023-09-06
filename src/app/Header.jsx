@@ -63,7 +63,7 @@ export default function Header() {
             </button>
             {isMenuDropDownOpen && (
               <nav
-                className="flex flex-col items-start absolute  mt-1  bg-white md:shadow-md rounded-xl p-5"
+                className="flex flex-col items-start md:absolute  mt-1  bg-white md:shadow-md rounded-xl md:py-5 px-5"
                 // ref={dropdownRef}
               >
                 <Link
@@ -83,7 +83,7 @@ export default function Header() {
                 <Link
                   href="/service-provider"
                   onClick={() => setOpen(false)}
-                  className="py-4 border-b w-full"
+                  className="py-4 md:border-b w-full"
                 >
                   Partner As Service Provider
                 </Link>

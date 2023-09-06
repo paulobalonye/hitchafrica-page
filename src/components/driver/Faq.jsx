@@ -64,7 +64,7 @@ export default function Faq() {
         <div className="flex flex-col gap-3">
           {List.map((info, index) => (
             <nav
-              className={`px-5 py-4 flex flex-col gap-2 leading-relaxed faq transition ease-in-out duration-1000 h-fit text-text`}
+              className={`md:px-5 py-4 flex flex-col gap-2 leading-relaxed faq transition ease-in-out duration-1000 h-fit text-text`}
               key={index}
             >
               <div className="relative flex justify-between items-center cursor-pointer text-sm md:text-base">
