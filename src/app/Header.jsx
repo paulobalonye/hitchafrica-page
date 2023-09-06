@@ -64,7 +64,7 @@ export default function Header() {
             {isMenuDropDownOpen && (
               <nav
                 className="flex flex-col items-start absolute  mt-1  bg-white md:shadow-md rounded-xl p-5"
-                ref={dropdownRef}
+                // ref={dropdownRef}
               >
                 <Link
                   href="/driver"

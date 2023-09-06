@@ -42,7 +42,7 @@ export default function Others() {
               Pharmacies
             </b>
             <p className="md:text-lg">
-            Expand your pharmacy's accessibility and provide essential medications with Hitch Africa.
+            Expand your {`pharmacy's`} accessibility and provide essential medications with Hitch Africa.
             </p>
           </nav>
           <nav className="flex flex-col gap-3 w-full md:w-1/3">

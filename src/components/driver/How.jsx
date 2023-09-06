@@ -1,7 +1,7 @@
-import how1 from "@/assets/howw/how1.png";
-import how2 from "@/assets/howw/how2.png";
-import how3 from "@/assets/howw/how3.png";
-import how4 from "@/assets/howw/how4.png";
+import how1 from "@/assets/app/app1.jpeg";
+import how2 from "@/assets/app/app2.jpeg";
+import how3 from "@/assets/app/app3.jpeg";
+import how4 from "@/assets/app/app4.jpeg";
 import Image from "next/image";
 import playstore from "@/assets/playstore.svg";
 import appstore from "@/assets/appstore.svg";
@@ -20,7 +20,7 @@ export default function How() {
             <Image
               src={how1}
               alt=""
-              className="w-full md:h-[50vh] object-fill md:object-contain"
+              className="w-full md:ffh-[50vh] shadow-xl rounded-2xl object-fill md:object-contain"
             />
           </figure>
           <div className="flex gap-3 md:gap-6 items-start">
@@ -43,7 +43,7 @@ export default function How() {
             <Image
               src={how2}
               alt=""
-              className="w-full md:h-[50vh] object-fill md:object-contain"
+              className="w-full md:ffh-[50vh] shadow-xl rounded-2xl object-fill md:object-contain"
             />
           </figure>
           <div className="flex gap-3 md:gap-6 items-start">
@@ -66,7 +66,7 @@ export default function How() {
             <Image
               src={how3}
               alt=""
-              className="w-full md:h-[50vh] object-fill md:object-contain"
+              className="w-full md:ffh-[50vh] shadow-xl rounded-2xl object-fill md:object-contain"
             />
           </figure>
           <div className="flex gap-3 md:gap-6 items-start">
@@ -89,7 +89,7 @@ export default function How() {
             <Image
               src={how4}
               alt=""
-              className="w-full md:h-[50vh] object-fill md:object-contain"
+              className="w-full md:ffh-[50vh] shadow-xl rounded-2xl object-fill md:object-contain"
             />
           </figure>
           <div className="flex gap-3 md:gap-6 items-start">
