@@ -1,6 +1,6 @@
 import Image from "next/image";
 import news1 from "@/assets/howw/how2.png";
-import news2 from "@/assets/bts.jpg";
+import news2 from "@/assets/howw/how1.png";
 import Link from "next/link";
 
 export default function News() {
@@ -48,16 +48,16 @@ export default function News() {
             className="w-full md:h-[400px] object-cover"
           />
           <span className="text-primary bg-[#E8F7F2] rounded-full px-3 py-2 w-fit">
-            Delivery
+            launch
           </span>
-          <b className="text-xl text-dark font-[800]">
-            Delivering Delights: Behind the Scenes of Hitch {`Africa's`} Food
-            and Package Delivery Services
-          </b>
+          <Link
+            href="https://guardian.ng/technology/firm-launches-borderless-marketplace-app-to-drive-on-demand-services/"
+            className="text-xl text-dark font-[800]"
+          >
+            Firm launches borderless marketplace app to drive on-demand services
+          </Link>
           <p className="font-[500]">
-            Dive into the logistics and technology that power Hitch {`Africa's`}
-            seamless delivery experience, ensuring your meals and packages reach
-            you swiftly and in perfect condition.
+          HitchAfrica, a growing tech startup, is set to launch an innovative On-Demand Service experience for the African market, as it berths in major cities in Nigeria, in a fortnight.
           </p>
         </nav>
       </div>
