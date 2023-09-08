@@ -6,7 +6,6 @@ import "./globals.css";
 import { Montserrat } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
-import Head from "next/head";
 import Script from 'next/script'
 
 const mont = Montserrat({
