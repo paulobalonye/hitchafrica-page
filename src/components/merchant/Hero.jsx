@@ -1,4 +1,4 @@
-import hero from "@/assets/map.jpeg";
+import hero from "@/assets/hero-merchant.jpeg";
 export default function Hero() {
   return (
     <>

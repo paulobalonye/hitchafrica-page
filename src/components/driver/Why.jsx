@@ -11,17 +11,17 @@ export default function Why() {
         </h3>
       </div>
       <div className="flex flex-col md:grid grid-cols-3 gap-10">
-        <nav className="text-center px-5 flex flex-col gap-4 justify-center items-center">
+        <nav className="text-center px-5 flex flex-col gap-4 justify-center items-center shadow-md rounded-2xl">
           <Image src={why3} alt="" className="w-1/2" />
           <b className="text-2xl mt-auto">Flexibility Guaranteed</b>
           <p className="text-lg">Enjoy the freedom to drive on <br /> your own terms.</p>
         </nav>
-        <nav className="text-center px-5 flex flex-col gap-4 justify-center items-center">
+        <nav className="text-center px-5 flex flex-col gap-4 justify-center items-center shadow-md rounded-2xl">
           <Image src={why1} alt="" className="w-1/2" />
           <b className="text-2xl mt-auto">Earn More</b>
           <p className="text-lg">Maximize your with <br /> competitive rates.</p>
         </nav>
-        <nav className="text-center px-5 flex flex-col gap-4 justify-center items-center">
+        <nav className="text-center px-5 flex flex-col gap-4 justify-center items-center shadow-md rounded-2xl">
           <Image src={why2} alt="" className="w-1/2" />
           <b className="text-2xl mt-auto">Safety First</b>
           <p className="text-lg">Drive with confidence, knowing we <br /> prioritize your safety.</p>
