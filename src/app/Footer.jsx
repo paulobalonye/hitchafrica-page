@@ -37,7 +37,7 @@ export default function Footer() {
           <nav className="flex flex-col gap-3 text-xl">
             <p className="flex gap-4 items-center">
               <FaPhone />
-              +234-7075-555-4168 <br /> +1-440-771-3030
+              +234-705-555-4168 <br /> +1-440-771-3030
             </p>
             <p className="flex gap-4 items-center">
               <FaEnvelope />
