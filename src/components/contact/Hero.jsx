@@ -28,7 +28,7 @@ export default function Hero() {
               <FaPhoneAlt /> PHONE
             </b>
             <div>
-              <p>+234-7075-555-4168</p>
+              <p>+234-705-555-4168</p>
               <p>+1-440-771-3030</p>
             </div>
           </nav>
