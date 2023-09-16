@@ -82,7 +82,7 @@ export default function Form() {
         <input
           type="hidden"
           name="_next"
-          value="https://hitch-main.vercel.app"
+          value="https://hitchafrica.com"
         />
         <input type="hidden" name="_subject" value="Contact Us Form!" />
         <input type="hidden" name="_captcha" value="false" />
